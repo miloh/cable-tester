@@ -1,0 +1,12 @@
+ribbon cable testrig tests continuity for version 1 ribbon cables and pcbs
+
+test rig plugs into a arduino mega body and uses accompanying scetch to signal
+each pin sequentially while checking for shorts or opens.
+
+6 way  24AWG power cables
+20 way 30AWG 0.025" ribbon
+26 way 30AWG 0.025" ribbon
+
+backplane breakout (bpbo) pcb
+gantry (gbo) pcb
+carriage (cbo) pcb
