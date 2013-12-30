@@ -1,5 +1,5 @@
 v 20111231 2
-T 43500 42600 9 24 1 0 0 0 1
+T 43800 42900 9 24 1 0 0 0 1
 need to replace this with mega device here
 C 42200 34900 1 0 0 header26-2.sym
 {
@@ -10,30 +10,754 @@ footprint=header26
 T 42600 43200 5 10 0 0 0 0 1
 device=header26
 }
-C 51400 38800 1 0 0 TAM_20pin_ribbon_conn_v2.sym
+C 55300 38200 1 0 0 TAM_20pin_ribbon_conn_v2.sym
 {
-T 52400 41975 5 10 1 1 0 6 1
+T 56300 41375 5 10 1 1 0 6 1
 refdes=CONN?
-T 51800 41950 5 10 0 0 0 0 1
+T 55700 41350 5 10 0 0 0 0 1
 device=TAM_20pin_ribbon_conn
 }
-C 48100 40200 1 0 0 TAM_pwrline_6pin_v2.sym
+C 55400 41600 1 0 0 TAM_pwrline_6pin_v2.sym
 {
-T 50100 41400 5 10 1 1 0 6 1
+T 57400 42800 5 10 1 1 0 6 1
 refdes=CONN?
-T 48500 41600 5 10 0 0 0 0 1
+T 55800 43000 5 10 0 0 0 0 1
 device=TAM_pwrline_6pin_v2
 }
-C 55000 38700 1 0 0 TAM_26pin_ribbon_conn_v2.sym
+C 55300 34200 1 0 0 TAM_26pin_ribbon_conn_v2.sym
 {
-T 56025 42525 5 10 1 1 0 6 1
+T 56325 38025 5 10 1 1 0 6 1
 refdes=CONN?
-T 55400 42600 5 10 0 0 0 0 1
+T 55700 38100 5 10 0 0 0 0 1
 device=TAM_26pin_ribbon_conn
-T 55400 42800 5 10 0 0 0 0 1
+T 55700 38300 5 10 0 0 0 0 1
 footprint=EHF-113-01-XX-D
 }
 C 41700 32500 0 0 0 title-bordered-B.sym
 T 52900 33300 9 10 1 0 0 0 2
 Ribbon Cable Test Rig
+
+C 43500 35000 1 0 0 led-2.sym
+{
+T 43600 35600 5 10 0 0 0 0 1
+device=LED
+T 44100 35000 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 35000 1 0 0 resistor-2.sym
+{
+T 44800 35350 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 35000 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 35300 1 0 0 led-2.sym
+{
+T 43600 35900 5 10 0 0 0 0 1
+device=LED
+T 44100 35300 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 35300 1 0 0 resistor-2.sym
+{
+T 44800 35650 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 35300 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 35600 1 0 0 led-2.sym
+{
+T 43600 36200 5 10 0 0 0 0 1
+device=LED
+T 44100 35600 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 35600 1 0 0 resistor-2.sym
+{
+T 44800 35950 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 35600 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 35900 1 0 0 led-2.sym
+{
+T 43600 36500 5 10 0 0 0 0 1
+device=LED
+T 44100 35900 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 35900 1 0 0 resistor-2.sym
+{
+T 44800 36250 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 35900 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 36200 1 0 0 led-2.sym
+{
+T 43600 36800 5 10 0 0 0 0 1
+device=LED
+T 44100 36200 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 36200 1 0 0 resistor-2.sym
+{
+T 44800 36550 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 36200 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 36500 1 0 0 led-2.sym
+{
+T 43600 37100 5 10 0 0 0 0 1
+device=LED
+T 44100 36500 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 36500 1 0 0 resistor-2.sym
+{
+T 44800 36850 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 36500 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 36800 1 0 0 led-2.sym
+{
+T 43600 37400 5 10 0 0 0 0 1
+device=LED
+T 44100 36800 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 36800 1 0 0 resistor-2.sym
+{
+T 44800 37150 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 36800 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 37100 1 0 0 led-2.sym
+{
+T 43600 37700 5 10 0 0 0 0 1
+device=LED
+T 44100 37100 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 37100 1 0 0 resistor-2.sym
+{
+T 44800 37450 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 37100 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 37400 1 0 0 led-2.sym
+{
+T 43600 38000 5 10 0 0 0 0 1
+device=LED
+T 44100 37400 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 37400 1 0 0 resistor-2.sym
+{
+T 44800 37750 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 37400 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 37700 1 0 0 led-2.sym
+{
+T 43600 38300 5 10 0 0 0 0 1
+device=LED
+T 44100 37700 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 37700 1 0 0 resistor-2.sym
+{
+T 44800 38050 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 37700 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 38000 1 0 0 led-2.sym
+{
+T 43600 38600 5 10 0 0 0 0 1
+device=LED
+T 44100 38000 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 38000 1 0 0 resistor-2.sym
+{
+T 44800 38350 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 38000 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 38300 1 0 0 led-2.sym
+{
+T 43600 38900 5 10 0 0 0 0 1
+device=LED
+T 44100 38300 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 38300 1 0 0 resistor-2.sym
+{
+T 44800 38650 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 38300 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 38600 1 0 0 led-2.sym
+{
+T 43600 39200 5 10 0 0 0 0 1
+device=LED
+T 44100 38600 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 38600 1 0 0 resistor-2.sym
+{
+T 44800 38950 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 38600 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 38900 1 0 0 led-2.sym
+{
+T 43600 39500 5 10 0 0 0 0 1
+device=LED
+T 44100 38900 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 38900 1 0 0 resistor-2.sym
+{
+T 44800 39250 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 38900 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 39200 1 0 0 led-2.sym
+{
+T 43600 39800 5 10 0 0 0 0 1
+device=LED
+T 44100 39200 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 39200 1 0 0 resistor-2.sym
+{
+T 44800 39550 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 39200 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 39500 1 0 0 led-2.sym
+{
+T 43600 40100 5 10 0 0 0 0 1
+device=LED
+T 44100 39500 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 39500 1 0 0 resistor-2.sym
+{
+T 44800 39850 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 39500 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 39800 1 0 0 led-2.sym
+{
+T 43600 40400 5 10 0 0 0 0 1
+device=LED
+T 44100 39800 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 39800 1 0 0 resistor-2.sym
+{
+T 44800 40150 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 39800 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 40100 1 0 0 led-2.sym
+{
+T 43600 40700 5 10 0 0 0 0 1
+device=LED
+T 44100 40100 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 40100 1 0 0 resistor-2.sym
+{
+T 44800 40450 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 40100 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 40400 1 0 0 led-2.sym
+{
+T 43600 41000 5 10 0 0 0 0 1
+device=LED
+T 44100 40400 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 40400 1 0 0 resistor-2.sym
+{
+T 44800 40750 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 40400 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 40700 1 0 0 led-2.sym
+{
+T 43600 41300 5 10 0 0 0 0 1
+device=LED
+T 44100 40700 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 40700 1 0 0 resistor-2.sym
+{
+T 44800 41050 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 40700 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 41000 1 0 0 led-2.sym
+{
+T 43600 41600 5 10 0 0 0 0 1
+device=LED
+T 44100 41000 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 41000 1 0 0 resistor-2.sym
+{
+T 44800 41350 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 41000 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 41300 1 0 0 led-2.sym
+{
+T 43600 41900 5 10 0 0 0 0 1
+device=LED
+T 44100 41300 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 41300 1 0 0 resistor-2.sym
+{
+T 44800 41650 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 41300 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 41600 1 0 0 led-2.sym
+{
+T 43600 42200 5 10 0 0 0 0 1
+device=LED
+T 44100 41600 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 41600 1 0 0 resistor-2.sym
+{
+T 44800 41950 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 41600 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 41900 1 0 0 led-2.sym
+{
+T 43600 42500 5 10 0 0 0 0 1
+device=LED
+T 44100 41900 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 41900 1 0 0 resistor-2.sym
+{
+T 44800 42250 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 41900 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 42200 1 0 0 led-2.sym
+{
+T 43600 42800 5 10 0 0 0 0 1
+device=LED
+T 44100 42200 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 42200 1 0 0 resistor-2.sym
+{
+T 44800 42550 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 42200 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43500 42500 1 0 0 led-2.sym
+{
+T 43600 43100 5 10 0 0 0 0 1
+device=LED
+T 44100 42500 5 10 1 1 0 0 1
+refdes=D?
+}
+C 44400 42500 1 0 0 resistor-2.sym
+{
+T 44800 42850 5 10 0 0 0 0 1
+device=RESISTOR
+T 44700 42500 5 10 1 1 0 0 1
+refdes=R?
+}
+N 55500 42000 55500 41950 4
+N 45900 42600 45300 42600 4
+N 45900 42300 45300 42300 4
+N 45900 42000 45300 42000 4
+N 45900 41700 45300 41700 4
+N 45900 41400 45300 41400 4
+N 45900 41100 45300 41100 4
+N 45900 40800 45300 40800 4
+N 45900 40500 45300 40500 4
+N 45900 40200 45300 40200 4
+N 45900 39900 45300 39900 4
+N 45900 39600 45300 39600 4
+N 45900 39300 45300 39300 4
+N 45900 39000 45300 39000 4
+N 45900 38700 45300 38700 4
+N 45900 38400 45300 38400 4
+N 45900 38100 45300 38100 4
+N 45900 37800 45300 37800 4
+N 45900 37500 45300 37500 4
+N 45900 37200 45300 37200 4
+N 45900 36900 45300 36900 4
+N 45900 36600 45300 36600 4
+N 45900 36300 45300 36300 4
+N 45900 36000 45300 36000 4
+N 45900 35700 45300 35700 4
+N 45900 35400 45300 35400 4
+N 45900 35100 45300 35100 4
+C 46900 42500 1 90 0 jumper-1.sym
+{
+T 46400 42800 5 8 0 0 90 0 1
+device=JUMPER
+T 46400 42800 5 10 1 1 90 0 1
+refdes=J?
+}
+C 46900 42600 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 42900 5 10 1 1 0 0 1
+refdes=S?
+T 47300 43200 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+}
+C 46900 42200 1 90 0 jumper-1.sym
+{
+T 46400 42500 5 8 0 0 90 0 1
+device=JUMPER
+T 46400 42500 5 10 1 1 90 0 1
+refdes=J?
+}
+C 46900 42300 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 42900 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+T 47300 42600 5 10 1 1 0 0 1
+refdes=S?
+}
+C 46900 41900 1 90 0 jumper-1.sym
+{
+T 46400 42200 5 8 0 0 90 0 1
+device=JUMPER
+T 46400 42200 5 10 1 1 90 0 1
+refdes=J?
+}
+C 46900 42000 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 42600 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+}
+C 46900 41600 1 90 0 jumper-1.sym
+{
+T 46400 41900 5 8 0 0 90 0 1
+device=JUMPER
+T 46400 41900 5 10 1 1 90 0 1
+refdes=J?
+}
+C 46900 41700 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 42300 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+T 47300 42000 5 10 1 1 0 0 1
+refdes=S?
+}
+C 46900 41300 1 90 0 jumper-1.sym
+{
+T 46400 41600 5 8 0 0 90 0 1
+device=JUMPER
+}
+C 46900 41400 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 42000 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+}
+C 46900 41000 1 90 0 jumper-1.sym
+{
+T 46400 41300 5 8 0 0 90 0 1
+device=JUMPER
+T 46400 41300 5 10 1 1 90 0 1
+refdes=J?
+}
+C 46900 41100 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 41700 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+T 47300 41400 5 10 1 1 0 0 1
+refdes=S?
+}
+C 46900 40700 1 90 0 jumper-1.sym
+{
+T 46400 41000 5 8 0 0 90 0 1
+device=JUMPER
+T 46400 41000 5 10 1 1 90 0 1
+refdes=J?
+}
+C 46900 40800 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 41400 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+}
+C 46900 40400 1 90 0 jumper-1.sym
+{
+T 46400 40700 5 8 0 0 90 0 1
+device=JUMPER
+T 46400 40700 5 10 1 1 90 0 1
+refdes=J?
+}
+C 46900 40500 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 41100 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+T 47300 40800 5 10 1 1 0 0 1
+refdes=S?
+}
+C 46900 40100 1 90 0 jumper-1.sym
+{
+T 46400 40400 5 8 0 0 90 0 1
+device=JUMPER
+}
+C 46900 40200 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 40800 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+}
+C 46900 39800 1 90 0 jumper-1.sym
+{
+T 46400 40100 5 8 0 0 90 0 1
+device=JUMPER
+T 46400 40100 5 10 1 1 90 0 1
+refdes=J?
+}
+C 46900 39900 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 40500 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+T 47300 40200 5 10 1 1 0 0 1
+refdes=S?
+}
+C 46900 39500 1 90 0 jumper-1.sym
+{
+T 46400 39800 5 8 0 0 90 0 1
+device=JUMPER
+T 46400 39800 5 10 1 1 90 0 1
+refdes=J?
+}
+C 46900 39600 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 40200 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+}
+C 46900 39200 1 90 0 jumper-1.sym
+{
+T 46400 39500 5 8 0 0 90 0 1
+device=JUMPER
+T 46400 39500 5 10 1 1 90 0 1
+refdes=J?
+}
+C 46900 39300 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 39900 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+T 47300 39600 5 10 1 1 0 0 1
+refdes=S?
+}
+C 46900 38900 1 90 0 jumper-1.sym
+{
+T 46400 39200 5 8 0 0 90 0 1
+device=JUMPER
+}
+C 46900 39000 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 39600 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+}
+C 46900 38600 1 90 0 jumper-1.sym
+{
+T 46400 38900 5 8 0 0 90 0 1
+device=JUMPER
+T 46400 38900 5 10 1 1 90 0 1
+refdes=J?
+}
+C 46900 38700 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 39300 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+T 47300 39000 5 10 1 1 0 0 1
+refdes=S?
+}
+C 46900 38300 1 90 0 jumper-1.sym
+{
+T 46400 38600 5 8 0 0 90 0 1
+device=JUMPER
+T 46400 38600 5 10 1 1 90 0 1
+refdes=J?
+}
+C 46900 38400 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 39000 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+}
+C 46900 38000 1 90 0 jumper-1.sym
+{
+T 46400 38300 5 8 0 0 90 0 1
+device=JUMPER
+T 46400 38300 5 10 1 1 90 0 1
+refdes=J?
+}
+C 46900 38100 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 38700 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+T 47300 38400 5 10 1 1 0 0 1
+refdes=S?
+}
+C 46900 37700 1 90 0 jumper-1.sym
+{
+T 46400 38000 5 8 0 0 90 0 1
+device=JUMPER
+}
+C 46900 37800 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 38400 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+}
+C 46900 37400 1 90 0 jumper-1.sym
+{
+T 46400 37700 5 8 0 0 90 0 1
+device=JUMPER
+T 46400 37700 5 10 1 1 90 0 1
+refdes=J?
+}
+C 46900 37500 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 38100 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+T 47300 37800 5 10 1 1 0 0 1
+refdes=S?
+}
+C 46900 37100 1 90 0 jumper-1.sym
+{
+T 46400 37400 5 8 0 0 90 0 1
+device=JUMPER
+T 46400 37400 5 10 1 1 90 0 1
+refdes=J?
+}
+C 46900 37200 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 37800 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+}
+C 46900 36800 1 90 0 jumper-1.sym
+{
+T 46400 37100 5 8 0 0 90 0 1
+device=JUMPER
+T 46400 37100 5 10 1 1 90 0 1
+refdes=J?
+}
+C 46900 36900 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 37500 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+T 47300 37200 5 10 1 1 0 0 1
+refdes=S?
+}
+C 46900 36500 1 90 0 jumper-1.sym
+{
+T 46400 36800 5 8 0 0 90 0 1
+device=JUMPER
+}
+C 46900 36600 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 37200 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+}
+C 46900 36200 1 90 0 jumper-1.sym
+{
+T 46400 36500 5 8 0 0 90 0 1
+device=JUMPER
+T 46400 36500 5 10 1 1 90 0 1
+refdes=J?
+}
+C 46900 36300 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 36900 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+T 47300 36600 5 10 1 1 0 0 1
+refdes=S?
+}
+C 46900 35900 1 90 0 jumper-1.sym
+{
+T 46400 36200 5 8 0 0 90 0 1
+device=JUMPER
+T 46400 36200 5 10 1 1 90 0 1
+refdes=J?
+}
+C 46900 36000 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 36600 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+}
+C 46900 35600 1 90 0 jumper-1.sym
+{
+T 46400 35900 5 8 0 0 90 0 1
+device=JUMPER
+T 46400 35900 5 10 1 1 90 0 1
+refdes=J?
+}
+C 46900 35700 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 36300 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+T 47300 36000 5 10 1 1 0 0 1
+refdes=S?
+}
+C 46900 35300 1 90 0 jumper-1.sym
+{
+T 46400 35600 5 8 0 0 90 0 1
+device=JUMPER
+}
+C 46900 35400 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 36000 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+}
+C 46900 35000 1 90 0 jumper-1.sym
+{
+T 46400 35300 5 8 0 0 90 0 1
+device=JUMPER
+T 46400 35300 5 10 1 1 90 0 1
+refdes=J?
+}
+C 46900 35100 1 0 0 switch-pushbutton-no-1.sym
+{
+T 47300 35700 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+T 47300 35400 5 10 1 1 0 0 1
+refdes=S?
+}
+T 42500 43700 9 10 1 0 0 0 4
+new idea -- green leds can be jmpd or pbd to test
+test the test device itself.  
+
 
