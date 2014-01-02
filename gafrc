@@ -1,1 +1,3 @@
 (component-library "/home/miloh/Documents/gaf/projects/gloucester/symbols")
+(component-library "./symbols")
+(component-library "../gaf_symbols/")
