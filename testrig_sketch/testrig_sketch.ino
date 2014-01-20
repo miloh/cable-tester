@@ -74,57 +74,57 @@ void setup() {
 
 // the loop routine runs over and over again forever:
 void loop() {
-  digitalWrite(20, LOW);    // turn the LED off by making the voltage LOW
+  digitalWrite(L01, LOW);    // turn the LED off by making the voltage LOW
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p02, LOW);
+  digitalWrite(L02, LOW);
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p03, LOW);
+  digitalWrite(L03, LOW);
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p04, LOW);
+  digitalWrite(L04, LOW);
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p05, LOW);
+  digitalWrite(L05, LOW);
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p06, LOW);
+  digitalWrite(L06, LOW);
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p07, LOW);
+  digitalWrite(L07, LOW);
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p08, LOW);
+  digitalWrite(L08, LOW);
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p09, LOW);
+  digitalWrite(L09, LOW);
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p10, LOW);
+  digitalWrite(L10, LOW);
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p11, LOW);
+  digitalWrite(L11, LOW);
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p12, LOW);
+  digitalWrite(L12, LOW);
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p13, LOW);
+  digitalWrite(L13, LOW);
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p14, LOW);
+  digitalWrite(L14, LOW);
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p15, LOW);
+  digitalWrite(L15, LOW);
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p16, LOW);
+  digitalWrite(L16, LOW);
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p17, LOW);
+  digitalWrite(L17, LOW);
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p18, LOW);
+  digitalWrite(L18, LOW);
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p19, LOW);
+  digitalWrite(L19, LOW);
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p20, LOW);
+  digitalWrite(L20, LOW);
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p21, LOW);
+  digitalWrite(L21, LOW);
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p22, LOW);
+  digitalWrite(L22, LOW);
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p23, LOW);
+  digitalWrite(L23, LOW);
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p24, LOW);
+  digitalWrite(L24, LOW);
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p25, LOW);
+  digitalWrite(L25, LOW);
   delay(SHORT_DELAY);               // wait for SHORT_DELAY seconds
-  digitalWrite(20way_p26, LOW);
+  digitalWrite(L26, LOW);
   delay(LONG_DELAY);               // wait for SHORT_DELAY seconds
 // make this into a variable for future versions with user selectable delay
 //periods
