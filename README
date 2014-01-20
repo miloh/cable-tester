@@ -1,11 +1,21 @@
 INTRODUCTION:
 this simple ribbon cable testrig tests continuity for Series One 2014 ribbon cables and pcbs
 
-test rig plugs into a arduino mega body and uses accompanying scetch to signal
-each pin sequentially while checking for shorts or opens.
+test rig plugs into a arduino mega body and uses the accompanying arduino
+sketch to signal each pin sequentially, allowing the user to check for shorts or opens.
 
 OPERATION:
-the signal paths are tested sequentially by making pin(N) high and pin(53-N) low.
+Signal path continuity is tested sequentially by making pin(N) high which
+lights up a specific LED for the connection.  If there is an open circuit from a bad solder joint or crimp
+in the cable, the led won't light up.  If there is a short between the pins then multiple leds will light up from a single input. 
+
+The next revision will be pcb based and allow for specific line testing.
+
+
+TO DO
+
+In the following versions shorting can be determined by making pin(53-N) low.
+
 for example, at pin(1) becomes high and pin(52) becomes low.  if there is a
 connetion to test between them (a ribbon cable connecting out from pin 1and pcb-dongle assembly
 connecting back to 52), then the GREEN LED will light up and the test
@@ -19,8 +29,7 @@ simplify the pcb layout.
 There are jumper spots and pushbuttons on the board to sanity test the test
 device itself.
 
-TO DO:
-this current method tests well for shorts and open circuits, but we need a way
+This current method tests well for shorts and open circuits, but we need a way
 to test intermittant open circuits and high frequency connections between
 circuits. what is this behavior?  we can send a simple known signal with the send pin and if the
 receive pin doesn't get it, then we can start to characterize open or distorted
