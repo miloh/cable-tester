@@ -11,8 +11,8 @@
 // Pin 13 has the LED on Teensy 3.0
 // name the connections from the arduion mega to the 26 pin header on the test rig 
 
-#define LONG_DELAY  500
-#define SHORT_DELAY 200
+#define LONG_DELAY  750
+#define SHORT_DELAY 350
 
 int L01 = 17;
 int L02 = 18;
@@ -25,12 +25,12 @@ int L08 = 24;
 int L09 = 25;
 int L10 = 26;
 int L11 = 27;
-int L12 = 28;
-int L13 = 29;
-int L14 = 2;
-int L15 = 3;
-int L16 = 4;
-int L17 = 5;
+int L12 = 29;
+int L13 = 30;
+int L14 = 5;
+int L15 = 4;
+int L16 = 3;
+int L17 = 2;
 int L18 = 6;
 int L19 = 7;
 int L20 = 8;
