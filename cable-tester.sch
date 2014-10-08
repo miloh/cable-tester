@@ -3,7 +3,7 @@ C 14500 51300 1 0 0 arduino-mega-boardlevel.sym
 C 21300 47500 1 0 1 header26-1.sym
 {
 T 20700 52900 5 10 1 1 0 6 1
-refdes=J?
+refdes=J1
 T 19700 52200 5 10 0 0 0 6 1
 device=HEADER26
 }
@@ -166,7 +166,7 @@ N 15000 59700 11750 59700 4
 C 21300 69150 1 0 1 header26-1.sym
 {
 T 20700 74550 5 10 1 1 0 6 1
-refdes=J?
+refdes=J2
 T 19700 73850 5 10 0 0 0 6 1
 device=HEADER26
 }
@@ -175,12 +175,12 @@ C 23100 74150 1 0 0 resistor-1.sym
 T 23400 74550 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 74350 5 10 1 1 0 0 1
-refdes=R?
+refdes=R1
 }
 C 21800 74150 1 0 0 led-2.sym
 {
 T 21800 74350 5 10 1 1 0 0 1
-refdes=D?
+refdes=D1
 T 21900 74750 5 10 0 0 0 0 1
 device=LED
 }
@@ -190,14 +190,14 @@ C 23100 73750 1 0 0 resistor-1.sym
 T 23400 74150 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 73950 5 10 1 1 0 0 1
-refdes=R?
+refdes=R2
 }
 C 21800 73750 1 0 0 led-2.sym
 {
 T 21900 74350 5 10 0 0 0 0 1
 device=LED
 T 21800 73950 5 10 1 1 0 0 1
-refdes=D?
+refdes=D2
 }
 N 22700 73850 23100 73850 4
 C 23100 73350 1 0 0 resistor-1.sym
@@ -205,14 +205,14 @@ C 23100 73350 1 0 0 resistor-1.sym
 T 23400 73750 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 73550 5 10 1 1 0 0 1
-refdes=R?
+refdes=R3
 }
 C 21800 73350 1 0 0 led-2.sym
 {
 T 21900 73950 5 10 0 0 0 0 1
 device=LED
 T 21800 73550 5 10 1 1 0 0 1
-refdes=D?
+refdes=D3
 }
 N 22700 73450 23100 73450 4
 C 23100 72950 1 0 0 resistor-1.sym
@@ -220,14 +220,14 @@ C 23100 72950 1 0 0 resistor-1.sym
 T 23400 73350 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 73150 5 10 1 1 0 0 1
-refdes=R?
+refdes=R4
 }
 C 21800 72950 1 0 0 led-2.sym
 {
 T 21900 73550 5 10 0 0 0 0 1
 device=LED
 T 21800 73150 5 10 1 1 0 0 1
-refdes=D?
+refdes=D4
 }
 N 22700 73050 23100 73050 4
 C 23100 72550 1 0 0 resistor-1.sym
@@ -235,14 +235,14 @@ C 23100 72550 1 0 0 resistor-1.sym
 T 23400 72950 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 72750 5 10 1 1 0 0 1
-refdes=R?
+refdes=R5
 }
 C 21800 72550 1 0 0 led-2.sym
 {
 T 21900 73150 5 10 0 0 0 0 1
 device=LED
 T 21800 72750 5 10 1 1 0 0 1
-refdes=D?
+refdes=D5
 }
 N 22700 72650 23100 72650 4
 C 23100 72150 1 0 0 resistor-1.sym
@@ -250,14 +250,14 @@ C 23100 72150 1 0 0 resistor-1.sym
 T 23400 72550 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 72350 5 10 1 1 0 0 1
-refdes=R?
+refdes=R6
 }
 C 21800 72150 1 0 0 led-2.sym
 {
 T 21900 72750 5 10 0 0 0 0 1
 device=LED
 T 21800 72350 5 10 1 1 0 0 1
-refdes=D?
+refdes=D6
 }
 N 22700 72250 23100 72250 4
 C 23100 71750 1 0 0 resistor-1.sym
@@ -265,14 +265,14 @@ C 23100 71750 1 0 0 resistor-1.sym
 T 23400 72150 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 71950 5 10 1 1 0 0 1
-refdes=R?
+refdes=R7
 }
 C 21800 71750 1 0 0 led-2.sym
 {
 T 21900 72350 5 10 0 0 0 0 1
 device=LED
 T 21800 71950 5 10 1 1 0 0 1
-refdes=D?
+refdes=D7
 }
 N 22700 71850 23100 71850 4
 C 23100 71350 1 0 0 resistor-1.sym
@@ -280,14 +280,14 @@ C 23100 71350 1 0 0 resistor-1.sym
 T 23400 71750 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 71550 5 10 1 1 0 0 1
-refdes=R?
+refdes=R8
 }
 C 21800 71350 1 0 0 led-2.sym
 {
 T 21900 71950 5 10 0 0 0 0 1
 device=LED
 T 21800 71550 5 10 1 1 0 0 1
-refdes=D?
+refdes=D8
 }
 N 22700 71450 23100 71450 4
 C 23100 70950 1 0 0 resistor-1.sym
@@ -295,14 +295,14 @@ C 23100 70950 1 0 0 resistor-1.sym
 T 23400 71350 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 71150 5 10 1 1 0 0 1
-refdes=R?
+refdes=R9
 }
 C 21800 70950 1 0 0 led-2.sym
 {
 T 21900 71550 5 10 0 0 0 0 1
 device=LED
 T 21800 71150 5 10 1 1 0 0 1
-refdes=D?
+refdes=D9
 }
 N 22700 71050 23100 71050 4
 C 23100 70550 1 0 0 resistor-1.sym
@@ -310,14 +310,14 @@ C 23100 70550 1 0 0 resistor-1.sym
 T 23400 70950 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 70750 5 10 1 1 0 0 1
-refdes=R?
+refdes=R10
 }
 C 21800 70550 1 0 0 led-2.sym
 {
 T 21900 71150 5 10 0 0 0 0 1
 device=LED
 T 21800 70750 5 10 1 1 0 0 1
-refdes=D?
+refdes=D10
 }
 N 22700 70650 23100 70650 4
 C 23100 70150 1 0 0 resistor-1.sym
@@ -325,14 +325,14 @@ C 23100 70150 1 0 0 resistor-1.sym
 T 23400 70550 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 70350 5 10 1 1 0 0 1
-refdes=R?
+refdes=R11
 }
 C 21800 70150 1 0 0 led-2.sym
 {
 T 21900 70750 5 10 0 0 0 0 1
 device=LED
 T 21800 70350 5 10 1 1 0 0 1
-refdes=D?
+refdes=D11
 }
 N 22700 70250 23100 70250 4
 C 23100 69750 1 0 0 resistor-1.sym
@@ -340,14 +340,14 @@ C 23100 69750 1 0 0 resistor-1.sym
 T 23400 70150 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 69950 5 10 1 1 0 0 1
-refdes=R?
+refdes=R12
 }
 C 21800 69750 1 0 0 led-2.sym
 {
 T 21900 70350 5 10 0 0 0 0 1
 device=LED
 T 21800 69950 5 10 1 1 0 0 1
-refdes=D?
+refdes=D12
 }
 N 22700 69850 23100 69850 4
 C 23100 69350 1 0 0 resistor-1.sym
@@ -355,14 +355,14 @@ C 23100 69350 1 0 0 resistor-1.sym
 T 23400 69750 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 69550 5 10 1 1 0 0 1
-refdes=R?
+refdes=R13
 }
 C 21800 69350 1 0 0 led-2.sym
 {
 T 21900 69950 5 10 0 0 0 0 1
 device=LED
 T 21800 69550 5 10 1 1 0 0 1
-refdes=D?
+refdes=D13
 }
 N 22700 69450 23100 69450 4
 C 18050 69550 1 180 0 resistor-1.sym
@@ -370,14 +370,14 @@ C 18050 69550 1 180 0 resistor-1.sym
 T 17750 69150 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 69350 5 10 1 1 180 0 1
-refdes=R?
+refdes=R14
 }
 C 19350 69550 1 180 0 led-2.sym
 {
 T 19250 68950 5 10 0 0 180 0 1
 device=LED
 T 19250 69350 5 10 1 1 180 0 1
-refdes=D?
+refdes=D14
 }
 N 18450 69450 18050 69450 4
 C 18050 69950 1 180 0 resistor-1.sym
@@ -385,14 +385,14 @@ C 18050 69950 1 180 0 resistor-1.sym
 T 17750 69550 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 69750 5 10 1 1 180 0 1
-refdes=R?
+refdes=R15
 }
 C 19350 69950 1 180 0 led-2.sym
 {
 T 19250 69350 5 10 0 0 180 0 1
 device=LED
 T 19250 69750 5 10 1 1 180 0 1
-refdes=D?
+refdes=D15
 }
 N 18450 69850 18050 69850 4
 C 18050 70350 1 180 0 resistor-1.sym
@@ -400,14 +400,14 @@ C 18050 70350 1 180 0 resistor-1.sym
 T 17750 69950 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 70150 5 10 1 1 180 0 1
-refdes=R?
+refdes=R16
 }
 C 19350 70350 1 180 0 led-2.sym
 {
 T 19250 69750 5 10 0 0 180 0 1
 device=LED
 T 19250 70150 5 10 1 1 180 0 1
-refdes=D?
+refdes=D16
 }
 N 18450 70250 18050 70250 4
 C 18050 70750 1 180 0 resistor-1.sym
@@ -415,14 +415,14 @@ C 18050 70750 1 180 0 resistor-1.sym
 T 17750 70350 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 70550 5 10 1 1 180 0 1
-refdes=R?
+refdes=R17
 }
 C 19350 70750 1 180 0 led-2.sym
 {
 T 19250 70150 5 10 0 0 180 0 1
 device=LED
 T 19250 70550 5 10 1 1 180 0 1
-refdes=D?
+refdes=D17
 }
 N 18450 70650 18050 70650 4
 C 18050 71150 1 180 0 resistor-1.sym
@@ -430,14 +430,14 @@ C 18050 71150 1 180 0 resistor-1.sym
 T 17750 70750 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 70950 5 10 1 1 180 0 1
-refdes=R?
+refdes=R18
 }
 C 19350 71150 1 180 0 led-2.sym
 {
 T 19250 70550 5 10 0 0 180 0 1
 device=LED
 T 19250 70950 5 10 1 1 180 0 1
-refdes=D?
+refdes=D18
 }
 N 18450 71050 18050 71050 4
 C 18050 71550 1 180 0 resistor-1.sym
@@ -445,14 +445,14 @@ C 18050 71550 1 180 0 resistor-1.sym
 T 17750 71150 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 71350 5 10 1 1 180 0 1
-refdes=R?
+refdes=R19
 }
 C 19350 71550 1 180 0 led-2.sym
 {
 T 19250 70950 5 10 0 0 180 0 1
 device=LED
 T 19250 71350 5 10 1 1 180 0 1
-refdes=D?
+refdes=D19
 }
 N 18450 71450 18050 71450 4
 C 18050 71950 1 180 0 resistor-1.sym
@@ -460,14 +460,14 @@ C 18050 71950 1 180 0 resistor-1.sym
 T 17750 71550 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 71750 5 10 1 1 180 0 1
-refdes=R?
+refdes=R20
 }
 C 19350 71950 1 180 0 led-2.sym
 {
 T 19250 71350 5 10 0 0 180 0 1
 device=LED
 T 19250 71750 5 10 1 1 180 0 1
-refdes=D?
+refdes=D20
 }
 N 18450 71850 18050 71850 4
 C 18050 72350 1 180 0 resistor-1.sym
@@ -475,14 +475,14 @@ C 18050 72350 1 180 0 resistor-1.sym
 T 17750 71950 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 72150 5 10 1 1 180 0 1
-refdes=R?
+refdes=R21
 }
 C 19350 72350 1 180 0 led-2.sym
 {
 T 19250 71750 5 10 0 0 180 0 1
 device=LED
 T 19250 72150 5 10 1 1 180 0 1
-refdes=D?
+refdes=D21
 }
 N 18450 72250 18050 72250 4
 C 18050 72750 1 180 0 resistor-1.sym
@@ -490,14 +490,14 @@ C 18050 72750 1 180 0 resistor-1.sym
 T 17750 72350 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 72550 5 10 1 1 180 0 1
-refdes=R?
+refdes=R22
 }
 C 19350 72750 1 180 0 led-2.sym
 {
 T 19250 72150 5 10 0 0 180 0 1
 device=LED
 T 19250 72550 5 10 1 1 180 0 1
-refdes=D?
+refdes=D22
 }
 N 18450 72650 18050 72650 4
 C 18050 73150 1 180 0 resistor-1.sym
@@ -505,14 +505,14 @@ C 18050 73150 1 180 0 resistor-1.sym
 T 17750 72750 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 72950 5 10 1 1 180 0 1
-refdes=R?
+refdes=R23
 }
 C 19350 73150 1 180 0 led-2.sym
 {
 T 19250 72550 5 10 0 0 180 0 1
 device=LED
 T 19250 72950 5 10 1 1 180 0 1
-refdes=D?
+refdes=D23
 }
 N 18450 73050 18050 73050 4
 C 18050 73550 1 180 0 resistor-1.sym
@@ -520,14 +520,14 @@ C 18050 73550 1 180 0 resistor-1.sym
 T 17750 73150 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 73350 5 10 1 1 180 0 1
-refdes=R?
+refdes=R24
 }
 C 19350 73550 1 180 0 led-2.sym
 {
 T 19250 72950 5 10 0 0 180 0 1
 device=LED
 T 19250 73350 5 10 1 1 180 0 1
-refdes=D?
+refdes=D24
 }
 N 18450 73450 18050 73450 4
 C 18050 73950 1 180 0 resistor-1.sym
@@ -535,14 +535,14 @@ C 18050 73950 1 180 0 resistor-1.sym
 T 17750 73550 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 73750 5 10 1 1 180 0 1
-refdes=R?
+refdes=R25
 }
 C 19350 73950 1 180 0 led-2.sym
 {
 T 19250 73350 5 10 0 0 180 0 1
 device=LED
 T 19250 73750 5 10 1 1 180 0 1
-refdes=D?
+refdes=D25
 }
 N 18450 73850 18050 73850 4
 C 18050 74350 1 180 0 resistor-1.sym
@@ -550,14 +550,14 @@ C 18050 74350 1 180 0 resistor-1.sym
 T 17750 73950 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 74150 5 10 1 1 180 0 1
-refdes=R?
+refdes=R26
 }
 C 19350 74350 1 180 0 led-2.sym
 {
 T 19250 73750 5 10 0 0 180 0 1
 device=LED
 T 19250 74150 5 10 1 1 180 0 1
-refdes=D?
+refdes=D26
 }
 N 18450 74250 18050 74250 4
 N 19900 69450 19350 69450 4
@@ -591,14 +591,14 @@ C 20300 67100 1 270 0 resistor-1.sym
 T 20700 66800 5 10 0 0 270 0 1
 device=RESISTOR
 T 20600 67100 5 10 1 1 270 0 1
-refdes=R?
+refdes=R27
 }
 C 20300 65950 1 270 0 led-2.sym
 {
 T 20900 65850 5 10 0 0 270 0 1
 device=LED
 T 20600 65950 5 10 1 1 270 0 1
-refdes=D?
+refdes=D27
 }
 N 26000 67300 26800 67300 4
 N 26800 67300 26800 69100 4
@@ -612,7 +612,7 @@ C 23600 65000 1 0 1 Speaker_russian_GOST-1.sym
 T 22100 67000 5 10 0 0 0 6 1
 device=SPEAKER
 T 21600 66500 5 10 1 1 0 6 1
-refdes=BA?
+refdes=BA1
 }
 N 15000 66600 14500 66600 4
 N 14500 66600 14500 68700 4
@@ -636,7 +636,7 @@ C 22200 68200 1 270 0 resistor-1.sym
 T 22600 67900 5 10 0 0 270 0 1
 device=RESISTOR
 T 22500 68200 5 10 1 1 270 0 1
-refdes=R?
+refdes=R28
 }
 N 22300 67300 22300 66900 4
 T 20200 66600 9 12 1 0 90 0 1
@@ -655,7 +655,7 @@ N 18800 64300 19000 64300 4
 C 19000 64300 1 0 0 switch-pb.sym
 {
 T 19500 64550 5 10 1 1 0 0 1
-refdes=S?
+refdes=S1
 }
 N 20200 64300 20400 64300 4
 N 20400 64600 22300 64600 4
