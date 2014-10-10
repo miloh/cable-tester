@@ -776,7 +776,7 @@ C 19000 64300 1 0 0 switch-pb.sym
 T 19500 64550 5 10 1 1 0 0 1
 refdes=S1
 T 19000 64300 5 10 0 0 0 0 1
-footprint=TYCO_fsmjsma
+footprint=TYCO-fsmjsma
 }
 N 20200 64300 20400 64300 4
 N 20400 64600 22300 64600 4
