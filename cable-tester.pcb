@@ -788,7 +788,29 @@ Symbol['~' 12.00mil]
 Attribute("import::src0" "/home/miloh/repos/cable-tester/cable-tester.sch")
 Attribute("PCB::grid::unit" "mil")
 
-Element["" "0402" "R28" "unknown" 140.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "SIP7" "CONN?" "unknown" 170.00mil 170.00mil 110.00mil -40.00mil 3 100 ""]
+(
+	Attribute("device" "CONNECTOR_7")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "GND" "1" "square"]
+	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 28.00mil "VIN" "2" ""]
+	Pin[0.0000 200.00mil 60.00mil 30.00mil 66.00mil 28.00mil "CS" "3" ""]
+	Pin[0.0000 300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "RST" "4" ""]
+	Pin[0.0000 400.00mil 60.00mil 30.00mil 66.00mil 28.00mil "D/C" "5" ""]
+	Pin[0.0000 500.00mil 60.00mil 30.00mil 66.00mil 28.00mil "CLK" "6" ""]
+	Pin[0.0000 600.00mil 60.00mil 30.00mil 66.00mil 28.00mil "MOSI/DATA" "7" ""]
+	ElementLine [-50.00mil 0.0000 -50.00mil 600.00mil 20.00mil]
+	ElementLine [50.00mil 0.0000 50.00mil 600.00mil 20.00mil]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementArc [0.0000 0.0000 50.00mil 50.00mil 180 180 20.00mil]
+	ElementArc [0.0000 600.00mil 50.00mil 50.00mil 0 180 20.00mil]
+
+	)
+
+Element["" "0402" "R28" "unknown" 360.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -800,7 +822,7 @@ Element["" "0402" "R28" "unknown" 140.00mil 130.00mil -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "LED_1206" "D27" "unknown" 410.00mil 160.00mil -118.11mil -118.11mil 0 100 ""]
+Element["" "LED_1206" "D27" "unknown" 630.00mil 160.00mil -118.11mil -118.11mil 0 100 ""]
 (
 	Attribute("gedasymbols::url" "http://www.gedasymbols.org/user/kai_martin_knaak/footprints/discretes/diodes/LED_1206.fp")
 	Attribute("device" "LED")
@@ -828,7 +850,7 @@ Element["" "LED_1206" "D27" "unknown" 410.00mil 160.00mil -118.11mil -118.11mil 
 
 	)
 
-Element["" "0402" "R27" "unknown" 670.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R27" "unknown" 890.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -840,20 +862,29 @@ Element["" "0402" "R27" "unknown" 670.00mil 130.00mil -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "led-0402" "D26" "unknown" 840.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D26" "unknown" 1070.00mil 150.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R26" "unknown" 1010.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R26" "unknown" 1260.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -865,20 +896,29 @@ Element["" "0402" "R26" "unknown" 1010.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D25" "unknown" 1180.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D25" "unknown" 1440.00mil 150.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R25" "unknown" 1350.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R25" "unknown" 1620.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -890,20 +930,29 @@ Element["" "0402" "R25" "unknown" 1350.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D24" "unknown" 1530.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D24" "unknown" 1810.00mil 150.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R24" "unknown" 1700.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R24" "unknown" 1990.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -915,20 +964,29 @@ Element["" "0402" "R24" "unknown" 1700.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D23" "unknown" 1870.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D23" "unknown" 2180.00mil 150.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R23" "unknown" 2040.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R23" "unknown" 2360.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -940,20 +998,29 @@ Element["" "0402" "R23" "unknown" 2040.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D22" "unknown" 2210.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D22" "unknown" 2540.00mil 150.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R22" "unknown" 2380.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R22" "unknown" 2730.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -965,20 +1032,29 @@ Element["" "0402" "R22" "unknown" 2380.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D21" "unknown" 2550.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D21" "unknown" 2910.00mil 150.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R21" "unknown" 2720.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R21" "unknown" 3090.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -990,20 +1066,29 @@ Element["" "0402" "R21" "unknown" 2720.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D20" "unknown" 2900.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D20" "unknown" 3280.00mil 150.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R20" "unknown" 3070.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R20" "unknown" 3460.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1015,20 +1100,29 @@ Element["" "0402" "R20" "unknown" 3070.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D19" "unknown" 3240.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D19" "unknown" 3640.00mil 150.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R19" "unknown" 3410.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R19" "unknown" 3830.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1040,20 +1134,29 @@ Element["" "0402" "R19" "unknown" 3410.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D18" "unknown" 3580.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D18" "unknown" 4010.00mil 150.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R18" "unknown" 3750.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R18" "unknown" 4200.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1065,20 +1168,29 @@ Element["" "0402" "R18" "unknown" 3750.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D17" "unknown" 3920.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D17" "unknown" 4380.00mil 150.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R17" "unknown" 4100.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R17" "unknown" 4560.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1090,20 +1202,29 @@ Element["" "0402" "R17" "unknown" 4100.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D16" "unknown" 4270.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D16" "unknown" 4750.00mil 150.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R16" "unknown" 4440.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R16" "unknown" 4930.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1115,20 +1236,29 @@ Element["" "0402" "R16" "unknown" 4440.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D15" "unknown" 4610.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D15" "unknown" 5110.00mil 150.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R15" "unknown" 4780.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R15" "unknown" 5300.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1140,20 +1270,29 @@ Element["" "0402" "R15" "unknown" 4780.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D14" "unknown" 4950.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D14" "unknown" 5480.00mil 150.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R14" "unknown" 5120.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R14" "unknown" 5660.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1165,20 +1304,29 @@ Element["" "0402" "R14" "unknown" 5120.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D13" "unknown" 5290.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D13" "unknown" 5850.00mil 150.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R13" "unknown" 5470.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R13" "unknown" 140.00mil 960.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1190,20 +1338,29 @@ Element["" "0402" "R13" "unknown" 5470.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D12" "unknown" 5640.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D12" "unknown" 320.00mil 980.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R12" "unknown" 5810.00mil 130.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R12" "unknown" 510.00mil 960.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1215,20 +1372,29 @@ Element["" "0402" "R12" "unknown" 5810.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D11" "unknown" 140.00mil 350.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D11" "unknown" 690.00mil 980.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R11" "unknown" 310.00mil 350.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R11" "unknown" 880.00mil 960.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1240,20 +1406,29 @@ Element["" "0402" "R11" "unknown" 310.00mil 350.00mil -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "led-0402" "D10" "unknown" 480.00mil 350.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D10" "unknown" 1060.00mil 980.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R10" "unknown" 650.00mil 350.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R10" "unknown" 1240.00mil 960.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1265,20 +1440,29 @@ Element["" "0402" "R10" "unknown" 650.00mil 350.00mil -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "led-0402" "D9" "unknown" 830.00mil 350.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D9" "unknown" 1430.00mil 980.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R9" "unknown" 1000.00mil 350.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R9" "unknown" 1610.00mil 960.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1290,20 +1474,29 @@ Element["" "0402" "R9" "unknown" 1000.00mil 350.00mil -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "led-0402" "D8" "unknown" 1170.00mil 350.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D8" "unknown" 1790.00mil 980.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R8" "unknown" 1340.00mil 350.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R8" "unknown" 1980.00mil 960.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1315,20 +1508,29 @@ Element["" "0402" "R8" "unknown" 1340.00mil 350.00mil -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "led-0402" "D7" "unknown" 1510.00mil 350.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D7" "unknown" 2160.00mil 980.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R7" "unknown" 1680.00mil 350.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R7" "unknown" 2340.00mil 960.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1340,45 +1542,63 @@ Element["" "0402" "R7" "unknown" 1680.00mil 350.00mil -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "led-0402" "D6" "unknown" 1850.00mil 350.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D6" "unknown" 2530.00mil 980.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R6" "unknown" 2020.00mil 350.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R6" "unknown" 2710.00mil 960.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 29.68mil 20.00mil 35.68mil "1" "1" "square"]
+	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
 	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
 
 	)
 
-Element["" "led-0402" "D5" "unknown" 2200.00mil 350.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D5" "unknown" 2900.00mil 980.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R5" "unknown" 2370.00mil 350.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R5" "unknown" 3080.00mil 960.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1390,20 +1610,29 @@ Element["" "0402" "R5" "unknown" 2370.00mil 350.00mil -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "led-0402" "D4" "unknown" 2540.00mil 350.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D4" "unknown" 3260.00mil 980.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R4" "unknown" 2710.00mil 350.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R4" "unknown" 3450.00mil 960.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1415,20 +1644,29 @@ Element["" "0402" "R4" "unknown" 2710.00mil 350.00mil -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "led-0402" "D3" "unknown" 2880.00mil 350.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D3" "unknown" 3630.00mil 980.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R3" "unknown" 3050.00mil 350.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R3" "unknown" 3810.00mil 960.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1440,20 +1678,29 @@ Element["" "0402" "R3" "unknown" 3050.00mil 350.00mil -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "led-0402" "D2" "unknown" 3220.00mil 350.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D2" "unknown" 4000.00mil 980.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R2" "unknown" 3400.00mil 350.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R2" "unknown" 4180.00mil 960.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1465,20 +1712,29 @@ Element["" "0402" "R2" "unknown" 3400.00mil 350.00mil -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "led-0402" "D1" "unknown" 3570.00mil 350.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "led-0402" "D1" "unknown" 4360.00mil 980.00mil 0.0000 0.0000 0 34 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-	ElementLine [15.00mil 3.90mil 15.00mil 3.90mil 0.08mil]
+	Pad[-15.74mil -2.83mil -15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "1" "1" "square"]
+	Pad[15.74mil -2.83mil 15.74mil 5.03mil 19.68mil 20.00mil 39.68mil "2" "2" "square"]
+	ElementLine [-25.00mil -30.00mil -45.00mil -30.00mil 6.00mil]
+	ElementLine [-5.00mil 25.00mil -5.00mil 55.00mil 6.00mil]
+	ElementLine [-5.00mil 55.00mil 10.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil -5.00mil 25.00mil 6.00mil]
+	ElementLine [-25.00mil 40.00mil -5.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 40.00mil 25.00mil 40.00mil 6.00mil]
+	ElementLine [10.00mil 55.00mil 10.00mil 25.00mil 6.00mil]
+	ElementLine [15.00mil 5.00mil 15.00mil 5.00mil 0.08mil]
+	ElementLine [25.00mil -30.00mil 45.00mil -30.00mil 6.00mil]
+	ElementLine [-35.00mil -40.00mil -35.00mil -20.00mil 6.00mil]
 
 	)
 
-Element["" "0402" "R1" "unknown" 3740.00mil 350.00mil -31.50mil -31.50mil 0 100 ""]
+Element["" "0402" "R1" "unknown" 4550.00mil 960.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1490,7 +1746,7 @@ Element["" "0402" "R1" "unknown" 3740.00mil 350.00mil -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "EHF-113-01-XX-D" "J2" "unknown" 3980.00mil 640.00mil 165.00mil -100.00mil 3 100 ""]
+Element["" "EHF-113-01-XX-D" "J2" "unknown" 4790.00mil 1250.00mil 165.00mil -100.00mil 3 100 ""]
 (
 	Attribute("device" "HEADER26")
 	Attribute("manufacturer" "unknown")
@@ -1547,7 +1803,7 @@ Element["" "EHF-113-01-XX-D" "J2" "unknown" 3980.00mil 640.00mil 165.00mil -100.
 
 	)
 
-Element["" "EHF-113-01-XX-D" "J1" "unknown" 4350.00mil 640.00mil 165.00mil -100.00mil 3 100 ""]
+Element["" "EHF-113-01-XX-D" "J1" "unknown" 5160.00mil 1250.00mil 165.00mil -100.00mil 3 100 ""]
 (
 	Attribute("device" "HEADER26")
 	Attribute("manufacturer" "unknown")
@@ -1603,82 +1859,60 @@ Element["" "EHF-113-01-XX-D" "J1" "unknown" 4350.00mil 640.00mil 165.00mil -100.
 	ElementLine [100.00mil -125.00mil 100.00mil 750.00mil 5.00mil]
 
 	)
-
-Element["" "SIP7" "CONN?" "unknown" 85.8344mm 71.3809mm 110.00mil -40.00mil 3 100 ""]
-(
-	Attribute("device" "CONNECTOR_7")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "GND" "1" "square"]
-	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 28.00mil "VIN" "2" ""]
-	Pin[0.0000 200.00mil 60.00mil 30.00mil 66.00mil 28.00mil "CS" "3" ""]
-	Pin[0.0000 300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "RST" "4" ""]
-	Pin[0.0000 400.00mil 60.00mil 30.00mil 66.00mil 28.00mil "D/C" "5" ""]
-	Pin[0.0000 500.00mil 60.00mil 30.00mil 66.00mil 28.00mil "CLK" "6" ""]
-	Pin[0.0000 600.00mil 60.00mil 30.00mil 66.00mil 28.00mil "MOSI/DATA" "7" ""]
-	ElementLine [-50.00mil 0.0000 -50.00mil 600.00mil 20.00mil]
-	ElementLine [50.00mil 0.0000 50.00mil 600.00mil 20.00mil]
-	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementArc [0.0000 0.0000 50.00mil 50.00mil 180 180 20.00mil]
-	ElementArc [0.0000 600.00mil 50.00mil 50.00mil 0 180 20.00mil]
-
-	)
-Rat[85.8344mm 71.3809mm 5 478.90mil 160.00mil 0  "selected"]
-Rat[125.3302mm 126.07mil 0 4030.00mil 1240.00mil 5  ""]
-Rat[133.9662mm 126.07mil 0 3980.00mil 1240.00mil 5  ""]
-Rat[116.6942mm 126.07mil 0 4030.00mil 1190.00mil 5  ""]
-Rat[142.8562mm 126.07mil 0 3980.00mil 1190.00mil 5  ""]
-Rat[108.0582mm 126.07mil 0 4030.00mil 1140.00mil 5  ""]
-Rat[3.1562mm 346.07mil 0 3980.00mil 1140.00mil 5  ""]
-Rat[99.1682mm 126.07mil 0 4030.00mil 1090.00mil 5  ""]
-Rat[464.26mil 346.07mil 0 3980.00mil 1090.00mil 5  ""]
-Rat[90.5322mm 126.07mil 0 4030.00mil 1040.00mil 5  ""]
-Rat[814.26mil 346.07mil 0 3980.00mil 1040.00mil 5  ""]
-Rat[81.8962mm 126.07mil 0 4030.00mil 990.00mil 5  ""]
-Rat[29.3182mm 346.07mil 0 3980.00mil 990.00mil 5  ""]
-Rat[73.2602mm 126.07mil 0 4030.00mil 940.00mil 5  ""]
-Rat[37.9542mm 346.07mil 0 3980.00mil 940.00mil 5  ""]
-Rat[64.3702mm 126.07mil 0 4030.00mil 890.00mil 5  ""]
-Rat[46.5902mm 346.07mil 0 3980.00mil 890.00mil 5  ""]
-Rat[55.7342mm 126.07mil 0 4030.00mil 840.00mil 5  ""]
-Rat[55.4802mm 346.07mil 0 3980.00mil 840.00mil 5  ""]
-Rat[47.0982mm 126.07mil 0 4030.00mil 790.00mil 5  ""]
-Rat[64.1162mm 346.07mil 0 3980.00mil 790.00mil 5  ""]
-Rat[38.4622mm 126.07mil 0 4030.00mil 740.00mil 5  ""]
-Rat[72.7522mm 346.07mil 0 3980.00mil 740.00mil 5  ""]
-Rat[29.5722mm 126.07mil 0 4030.00mil 690.00mil 5  ""]
-Rat[81.3882mm 346.07mil 0 3980.00mil 690.00mil 5  ""]
-Rat[824.26mil 126.07mil 0 4030.00mil 640.00mil 5  ""]
-Rat[90.2782mm 346.07mil 0 3980.00mil 640.00mil 5  ""]
-Rat[91.0778mm 346.07mil 0 94.5962mm 346.07mil 0  ""]
-Rat[82.1878mm 346.07mil 0 85.9602mm 346.07mil 0  ""]
-Rat[73.5518mm 346.07mil 0 77.0702mm 346.07mil 0  ""]
-Rat[64.9158mm 346.07mil 0 68.4342mm 346.07mil 0  ""]
-Rat[56.2798mm 346.07mil 0 59.7982mm 346.07mil 0  ""]
-Rat[47.3898mm 346.07mil 0 50.9082mm 346.07mil 0  ""]
-Rat[38.7538mm 346.07mil 0 42.2722mm 346.07mil 0  ""]
-Rat[30.1178mm 346.07mil 0 33.6362mm 346.07mil 0  ""]
-Rat[845.74mil 346.07mil 0 984.26mil 346.07mil 0  ""]
-Rat[495.74mil 346.07mil 0 634.26mil 346.07mil 0  ""]
-Rat[3.9558mm 346.07mil 0 7.4742mm 346.07mil 0  ""]
-Rat[143.6558mm 126.07mil 0 147.1742mm 126.07mil 0  ""]
-Rat[134.7658mm 126.07mil 0 138.5382mm 126.07mil 0  ""]
-Rat[126.1298mm 126.07mil 0 129.6482mm 126.07mil 0  ""]
-Rat[117.4938mm 126.07mil 0 121.0122mm 126.07mil 0  ""]
-Rat[108.8578mm 126.07mil 0 112.3762mm 126.07mil 0  ""]
-Rat[99.9678mm 126.07mil 0 103.7402mm 126.07mil 0  ""]
-Rat[91.3318mm 126.07mil 0 94.8502mm 126.07mil 0  ""]
-Rat[82.6958mm 126.07mil 0 86.2142mm 126.07mil 0  ""]
-Rat[74.0598mm 126.07mil 0 77.5782mm 126.07mil 0  ""]
-Rat[65.1698mm 126.07mil 0 68.6882mm 126.07mil 0  ""]
-Rat[56.5338mm 126.07mil 0 60.0522mm 126.07mil 0  ""]
-Rat[47.8978mm 126.07mil 0 51.4162mm 126.07mil 0  ""]
-Rat[39.2618mm 126.07mil 0 42.7802mm 126.07mil 0  ""]
-Rat[30.3718mm 126.07mil 0 33.8902mm 126.07mil 0  ""]
-Rat[855.74mil 126.07mil 0 994.26mil 126.07mil 0  ""]
-Rat[341.10mil 160.00mil 0 685.74mil 126.07mil 0  ""]
+Rat[170.00mil 170.00mil 5 698.90mil 160.00mil 0  ""]
+Rat[138.7922mm 147.17mil 0 4840.00mil 1850.00mil 5  ""]
+Rat[148.1902mm 147.17mil 0 4790.00mil 1850.00mil 5  ""]
+Rat[129.3942mm 147.17mil 0 4840.00mil 1800.00mil 5  ""]
+Rat[7.7282mm 977.17mil 0 4790.00mil 1800.00mil 5  ""]
+Rat[120.2502mm 147.17mil 0 4840.00mil 1750.00mil 5  ""]
+Rat[674.26mil 977.17mil 0 4790.00mil 1750.00mil 5  ""]
+Rat[110.8522mm 147.17mil 0 4840.00mil 1700.00mil 5  ""]
+Rat[26.5242mm 977.17mil 0 4790.00mil 1700.00mil 5  ""]
+Rat[101.4542mm 147.17mil 0 4840.00mil 1650.00mil 5  ""]
+Rat[35.9222mm 977.17mil 0 4790.00mil 1650.00mil 5  ""]
+Rat[92.0562mm 147.17mil 0 4840.00mil 1600.00mil 5  ""]
+Rat[45.0662mm 977.17mil 0 4790.00mil 1600.00mil 5  ""]
+Rat[82.9122mm 147.17mil 0 4840.00mil 1550.00mil 5  ""]
+Rat[54.4642mm 977.17mil 0 4790.00mil 1550.00mil 5  ""]
+Rat[73.5142mm 147.17mil 0 4840.00mil 1500.00mil 5  ""]
+Rat[63.8622mm 977.17mil 0 4790.00mil 1500.00mil 5  ""]
+Rat[64.1162mm 147.17mil 0 4840.00mil 1450.00mil 5  ""]
+Rat[73.2602mm 977.17mil 0 4790.00mil 1450.00mil 5  ""]
+Rat[54.9722mm 147.17mil 0 4840.00mil 1400.00mil 5  ""]
+Rat[82.4042mm 977.17mil 0 4790.00mil 1400.00mil 5  ""]
+Rat[45.5742mm 147.17mil 0 4840.00mil 1350.00mil 5  ""]
+Rat[91.8022mm 977.17mil 0 4790.00mil 1350.00mil 5  ""]
+Rat[36.1762mm 147.17mil 0 4840.00mil 1300.00mil 5  ""]
+Rat[101.2002mm 977.17mil 0 4790.00mil 1300.00mil 5  ""]
+Rat[26.7782mm 147.17mil 0 4840.00mil 1250.00mil 5  ""]
+Rat[110.3442mm 977.17mil 0 4790.00mil 1250.00mil 5  ""]
+Rat[111.1438mm 977.17mil 0 115.1702mm 956.07mil 0  ""]
+Rat[101.9998mm 977.17mil 0 105.7722mm 956.07mil 0  ""]
+Rat[92.6018mm 977.17mil 0 96.3742mm 956.07mil 0  ""]
+Rat[83.2038mm 977.17mil 0 87.2302mm 956.07mil 0  ""]
+Rat[74.0598mm 977.17mil 0 77.8322mm 956.07mil 0  ""]
+Rat[64.6618mm 977.17mil 0 68.4342mm 956.07mil 0  ""]
+Rat[55.2638mm 977.17mil 0 59.0362mm 956.07mil 0  ""]
+Rat[45.8658mm 977.17mil 0 49.8922mm 956.07mil 0  ""]
+Rat[36.7218mm 977.17mil 0 40.4942mm 956.07mil 0  ""]
+Rat[27.3238mm 977.17mil 0 31.0962mm 956.07mil 0  ""]
+Rat[705.74mil 977.17mil 0 864.26mil 956.07mil 0  ""]
+Rat[8.5278mm 977.17mil 0 494.26mil 956.07mil 0  ""]
+Rat[148.9898mm 147.17mil 0 3.1562mm 956.07mil 0  ""]
+Rat[139.5918mm 147.17mil 0 143.3642mm 126.07mil 0  ""]
+Rat[130.1938mm 147.17mil 0 134.2202mm 126.07mil 0  ""]
+Rat[121.0498mm 147.17mil 0 124.8222mm 126.07mil 0  ""]
+Rat[111.6518mm 147.17mil 0 115.4242mm 126.07mil 0  ""]
+Rat[102.2538mm 147.17mil 0 106.2802mm 126.07mil 0  ""]
+Rat[92.8558mm 147.17mil 0 96.8822mm 126.07mil 0  ""]
+Rat[83.7118mm 147.17mil 0 87.4842mm 126.07mil 0  ""]
+Rat[74.3138mm 147.17mil 0 78.0862mm 126.07mil 0  ""]
+Rat[64.9158mm 147.17mil 0 68.9422mm 126.07mil 0  ""]
+Rat[55.7718mm 147.17mil 0 59.5442mm 126.07mil 0  ""]
+Rat[46.3738mm 147.17mil 0 50.1462mm 126.07mil 0  ""]
+Rat[36.9758mm 147.17mil 0 40.7482mm 126.07mil 0  ""]
+Rat[27.5778mm 147.17mil 0 31.6042mm 126.07mil 0  ""]
+Rat[561.10mil 160.00mil 0 905.74mil 126.07mil 0  ""]
 Layer(1 "top")
 (
 )
