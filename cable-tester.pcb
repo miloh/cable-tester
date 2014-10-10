@@ -1603,6 +1603,29 @@ Element["" "EHF-113-01-XX-D" "J1" "unknown" 4350.00mil 640.00mil 165.00mil -100.
 	ElementLine [100.00mil -125.00mil 100.00mil 750.00mil 5.00mil]
 
 	)
+
+Element["" "SIP7" "CONN?" "unknown" 85.8344mm 71.3809mm 110.00mil -40.00mil 3 100 ""]
+(
+	Attribute("device" "CONNECTOR_7")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "GND" "1" "square"]
+	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 28.00mil "VIN" "2" ""]
+	Pin[0.0000 200.00mil 60.00mil 30.00mil 66.00mil 28.00mil "CS" "3" ""]
+	Pin[0.0000 300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "RST" "4" ""]
+	Pin[0.0000 400.00mil 60.00mil 30.00mil 66.00mil 28.00mil "D/C" "5" ""]
+	Pin[0.0000 500.00mil 60.00mil 30.00mil 66.00mil 28.00mil "CLK" "6" ""]
+	Pin[0.0000 600.00mil 60.00mil 30.00mil 66.00mil 28.00mil "MOSI/DATA" "7" ""]
+	ElementLine [-50.00mil 0.0000 -50.00mil 600.00mil 20.00mil]
+	ElementLine [50.00mil 0.0000 50.00mil 600.00mil 20.00mil]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementArc [0.0000 0.0000 50.00mil 50.00mil 180 180 20.00mil]
+	ElementArc [0.0000 600.00mil 50.00mil 50.00mil 0 180 20.00mil]
+
+	)
+Rat[85.8344mm 71.3809mm 5 478.90mil 160.00mil 0  "selected"]
 Rat[125.3302mm 126.07mil 0 4030.00mil 1240.00mil 5  ""]
 Rat[133.9662mm 126.07mil 0 3980.00mil 1240.00mil 5  ""]
 Rat[116.6942mm 126.07mil 0 4030.00mil 1190.00mil 5  ""]
