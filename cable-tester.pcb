@@ -862,7 +862,7 @@ Element["" "0402" "R27" "unknown" 890.00mil 130.00mil -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "led-0402" "D26" "unknown" 1070.00mil 150.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D26" "unknown" 1070.00mil 150.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -896,7 +896,7 @@ Element["" "0402" "R26" "unknown" 1260.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D25" "unknown" 1440.00mil 150.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D25" "unknown" 1440.00mil 150.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -930,7 +930,7 @@ Element["" "0402" "R25" "unknown" 1620.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D24" "unknown" 1810.00mil 150.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D24" "unknown" 1810.00mil 150.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -964,7 +964,7 @@ Element["" "0402" "R24" "unknown" 1990.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D23" "unknown" 2180.00mil 150.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D23" "unknown" 2180.00mil 150.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -998,7 +998,7 @@ Element["" "0402" "R23" "unknown" 2360.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D22" "unknown" 2540.00mil 150.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D22" "unknown" 2540.00mil 150.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1032,7 +1032,7 @@ Element["" "0402" "R22" "unknown" 2730.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D21" "unknown" 2910.00mil 150.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D21" "unknown" 2910.00mil 150.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1066,7 +1066,7 @@ Element["" "0402" "R21" "unknown" 3090.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D20" "unknown" 3280.00mil 150.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D20" "unknown" 3280.00mil 150.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1100,7 +1100,7 @@ Element["" "0402" "R20" "unknown" 3460.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D19" "unknown" 3640.00mil 150.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D19" "unknown" 3640.00mil 150.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1134,7 +1134,7 @@ Element["" "0402" "R19" "unknown" 3830.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D18" "unknown" 4010.00mil 150.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D18" "unknown" 4010.00mil 150.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1168,7 +1168,7 @@ Element["" "0402" "R18" "unknown" 4200.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D17" "unknown" 4380.00mil 150.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D17" "unknown" 4380.00mil 150.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1202,7 +1202,7 @@ Element["" "0402" "R17" "unknown" 4560.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D16" "unknown" 4750.00mil 150.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D16" "unknown" 4750.00mil 150.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1236,7 +1236,7 @@ Element["" "0402" "R16" "unknown" 4930.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D15" "unknown" 5110.00mil 150.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D15" "unknown" 5110.00mil 150.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1270,7 +1270,7 @@ Element["" "0402" "R15" "unknown" 5300.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D14" "unknown" 5480.00mil 150.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D14" "unknown" 5480.00mil 150.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1304,7 +1304,7 @@ Element["" "0402" "R14" "unknown" 5660.00mil 130.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D13" "unknown" 5850.00mil 150.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D13" "unknown" 5850.00mil 150.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1338,7 +1338,7 @@ Element["" "0402" "R13" "unknown" 140.00mil 960.00mil -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "led-0402" "D12" "unknown" 320.00mil 980.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D12" "unknown" 320.00mil 980.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1372,7 +1372,7 @@ Element["" "0402" "R12" "unknown" 510.00mil 960.00mil -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "led-0402" "D11" "unknown" 690.00mil 980.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D11" "unknown" 690.00mil 980.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1406,7 +1406,7 @@ Element["" "0402" "R11" "unknown" 880.00mil 960.00mil -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "led-0402" "D10" "unknown" 1060.00mil 980.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D10" "unknown" 1060.00mil 980.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1440,7 +1440,7 @@ Element["" "0402" "R10" "unknown" 1240.00mil 960.00mil -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "led-0402" "D9" "unknown" 1430.00mil 980.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D9" "unknown" 1430.00mil 980.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1474,7 +1474,7 @@ Element["" "0402" "R9" "unknown" 1610.00mil 960.00mil -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "led-0402" "D8" "unknown" 1790.00mil 980.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D8" "unknown" 1790.00mil 980.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1508,7 +1508,7 @@ Element["" "0402" "R8" "unknown" 1980.00mil 960.00mil -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "led-0402" "D7" "unknown" 2160.00mil 980.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D7" "unknown" 2160.00mil 980.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1542,7 +1542,7 @@ Element["" "0402" "R7" "unknown" 2340.00mil 960.00mil -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "led-0402" "D6" "unknown" 2530.00mil 980.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D6" "unknown" 2530.00mil 980.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1576,7 +1576,7 @@ Element["" "0402" "R6" "unknown" 2710.00mil 960.00mil -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "led-0402" "D5" "unknown" 2900.00mil 980.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D5" "unknown" 2900.00mil 980.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1610,7 +1610,7 @@ Element["" "0402" "R5" "unknown" 3080.00mil 960.00mil -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "led-0402" "D4" "unknown" 3260.00mil 980.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D4" "unknown" 3260.00mil 980.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1644,7 +1644,7 @@ Element["" "0402" "R4" "unknown" 3450.00mil 960.00mil -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "led-0402" "D3" "unknown" 3630.00mil 980.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D3" "unknown" 3630.00mil 980.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1678,7 +1678,7 @@ Element["" "0402" "R3" "unknown" 3810.00mil 960.00mil -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "led-0402" "D2" "unknown" 4000.00mil 980.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D2" "unknown" 4000.00mil 980.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1712,7 +1712,7 @@ Element["" "0402" "R2" "unknown" 4180.00mil 960.00mil -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "led-0402" "D1" "unknown" 4360.00mil 980.00mil 0.0000 0.0000 0 34 ""]
+Element["" "led-0402" "D1" "unknown" 4360.00mil 980.00mil -20.00mil -75.00mil 0 50 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
