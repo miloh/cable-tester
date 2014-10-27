@@ -193,7 +193,7 @@ footprint=0402
 C 21800 74150 1 0 0 led-2.sym
 {
 T 21800 74350 5 10 1 1 0 0 1
-refdes=D1
+refdes=D13
 T 21900 74750 5 10 0 0 0 0 1
 device=LED
 T 21800 74150 5 10 0 0 0 0 1
@@ -214,7 +214,7 @@ C 21800 73750 1 0 0 led-2.sym
 T 21900 74350 5 10 0 0 0 0 1
 device=LED
 T 21800 73950 5 10 1 1 0 0 1
-refdes=D2
+refdes=D12
 T 21800 73750 5 10 0 0 0 0 1
 footprint=led-0402
 }
@@ -233,7 +233,7 @@ C 21800 73350 1 0 0 led-2.sym
 T 21900 73950 5 10 0 0 0 0 1
 device=LED
 T 21800 73550 5 10 1 1 0 0 1
-refdes=D3
+refdes=D11
 T 21800 73350 5 10 0 0 0 0 1
 footprint=led-0402
 }
@@ -252,7 +252,7 @@ C 21800 72950 1 0 0 led-2.sym
 T 21900 73550 5 10 0 0 0 0 1
 device=LED
 T 21800 73150 5 10 1 1 0 0 1
-refdes=D4
+refdes=D10
 T 21800 72950 5 10 0 0 0 0 1
 footprint=led-0402
 }
@@ -271,7 +271,7 @@ C 21800 72550 1 0 0 led-2.sym
 T 21900 73150 5 10 0 0 0 0 1
 device=LED
 T 21800 72750 5 10 1 1 0 0 1
-refdes=D5
+refdes=D9
 T 21800 72550 5 10 0 0 0 0 1
 footprint=led-0402
 }
@@ -290,7 +290,7 @@ C 21800 72150 1 0 0 led-2.sym
 T 21900 72750 5 10 0 0 0 0 1
 device=LED
 T 21800 72350 5 10 1 1 0 0 1
-refdes=D6
+refdes=D8
 T 21800 72150 5 10 0 0 0 0 1
 footprint=led-0402
 }
@@ -328,7 +328,7 @@ C 21800 71350 1 0 0 led-2.sym
 T 21900 71950 5 10 0 0 0 0 1
 device=LED
 T 21800 71550 5 10 1 1 0 0 1
-refdes=D8
+refdes=D6
 T 21800 71350 5 10 0 0 0 0 1
 footprint=led-0402
 }
@@ -347,7 +347,7 @@ C 21800 70950 1 0 0 led-2.sym
 T 21900 71550 5 10 0 0 0 0 1
 device=LED
 T 21800 71150 5 10 1 1 0 0 1
-refdes=D9
+refdes=D5
 T 21800 70950 5 10 0 0 0 0 1
 footprint=led-0402
 }
@@ -366,7 +366,7 @@ C 21800 70550 1 0 0 led-2.sym
 T 21900 71150 5 10 0 0 0 0 1
 device=LED
 T 21800 70750 5 10 1 1 0 0 1
-refdes=D10
+refdes=D4
 T 21800 70550 5 10 0 0 0 0 1
 footprint=led-0402
 }
@@ -385,7 +385,7 @@ C 21800 70150 1 0 0 led-2.sym
 T 21900 70750 5 10 0 0 0 0 1
 device=LED
 T 21800 70350 5 10 1 1 0 0 1
-refdes=D11
+refdes=D3
 T 21800 70150 5 10 0 0 0 0 1
 footprint=led-0402
 }
@@ -404,7 +404,7 @@ C 21800 69750 1 0 0 led-2.sym
 T 21900 70350 5 10 0 0 0 0 1
 device=LED
 T 21800 69950 5 10 1 1 0 0 1
-refdes=D12
+refdes=D2
 T 21800 69750 5 10 0 0 0 0 1
 footprint=led-0402
 }
@@ -423,7 +423,7 @@ C 21800 69350 1 0 0 led-2.sym
 T 21900 69950 5 10 0 0 0 0 1
 device=LED
 T 21800 69550 5 10 1 1 0 0 1
-refdes=D13
+refdes=D1
 T 21800 69350 5 10 0 0 0 0 1
 footprint=led-0402
 }
