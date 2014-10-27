@@ -186,7 +186,7 @@ C 23100 74150 1 0 0 resistor-1.sym
 T 23400 74550 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 74350 5 10 1 1 0 0 1
-refdes=R1
+refdes=R13
 T 23500 74250 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -205,7 +205,7 @@ C 23100 73750 1 0 0 resistor-1.sym
 T 23400 74150 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 73950 5 10 1 1 0 0 1
-refdes=R2
+refdes=R12
 T 23100 73750 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -224,7 +224,7 @@ C 23100 73350 1 0 0 resistor-1.sym
 T 23400 73750 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 73550 5 10 1 1 0 0 1
-refdes=R3
+refdes=R11
 T 23100 73350 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -243,7 +243,7 @@ C 23100 72950 1 0 0 resistor-1.sym
 T 23400 73350 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 73150 5 10 1 1 0 0 1
-refdes=R4
+refdes=R10
 T 23100 72950 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -262,7 +262,7 @@ C 23100 72550 1 0 0 resistor-1.sym
 T 23400 72950 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 72750 5 10 1 1 0 0 1
-refdes=R5
+refdes=R9
 T 23100 72550 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -281,7 +281,7 @@ C 23100 72150 1 0 0 resistor-1.sym
 T 23400 72550 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 72350 5 10 1 1 0 0 1
-refdes=R6
+refdes=R8
 T 23100 72150 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -319,7 +319,7 @@ C 23100 71350 1 0 0 resistor-1.sym
 T 23400 71750 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 71550 5 10 1 1 0 0 1
-refdes=R8
+refdes=R6
 T 23100 71350 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -338,7 +338,7 @@ C 23100 70950 1 0 0 resistor-1.sym
 T 23400 71350 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 71150 5 10 1 1 0 0 1
-refdes=R9
+refdes=R5
 T 23100 70950 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -357,7 +357,7 @@ C 23100 70550 1 0 0 resistor-1.sym
 T 23400 70950 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 70750 5 10 1 1 0 0 1
-refdes=R10
+refdes=R4
 T 23100 70550 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -376,7 +376,7 @@ C 23100 70150 1 0 0 resistor-1.sym
 T 23400 70550 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 70350 5 10 1 1 0 0 1
-refdes=R11
+refdes=R3
 T 23100 70150 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -395,7 +395,7 @@ C 23100 69750 1 0 0 resistor-1.sym
 T 23400 70150 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 69950 5 10 1 1 0 0 1
-refdes=R12
+refdes=R2
 T 23100 69750 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -414,7 +414,7 @@ C 23100 69350 1 0 0 resistor-1.sym
 T 23400 69750 5 10 0 0 0 0 1
 device=RESISTOR
 T 23000 69550 5 10 1 1 0 0 1
-refdes=R13
+refdes=R1
 T 23100 69350 5 10 0 0 0 0 1
 footprint=0402
 }
