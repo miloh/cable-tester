@@ -4,7 +4,7 @@ C 13900 51600 1 0 0 arduino-mega-boardlevel.sym
 T 13900 51600 5 10 0 0 0 0 1
 footprint=arduino-mega2560-rev3
 T 22900 69100 5 10 1 1 0 0 1
-refdes=A?
+refdes=A1
 T 13900 51600 5 10 0 0 0 0 1
 device=Arduino-Mega2560
 }
@@ -802,7 +802,7 @@ N 23800 54400 23700 54400 4
 C 21700 59700 1 0 0 oled-7pin-header.sym
 {
 T 22400 63000 5 10 1 1 0 6 1
-refdes=CONN?
+refdes=CONN1
 T 22000 62950 5 10 0 0 0 0 1
 device=CONNECTOR_7
 T 22000 63150 5 10 0 0 0 0 1
