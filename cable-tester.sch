@@ -432,7 +432,7 @@ C 18050 69550 1 180 0 resistor-1.sym
 T 17750 69150 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 69350 5 10 1 1 180 0 1
-refdes=R14
+refdes=R26
 T 18050 69550 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -441,7 +441,7 @@ C 19350 69350 1 0 1 led-2.sym
 T 19250 69950 5 10 0 0 0 6 1
 device=LED
 T 19250 69550 5 10 1 1 0 6 1
-refdes=D14
+refdes=D26
 T 19350 69350 5 10 0 0 0 0 1
 footprint=led-0402
 }
@@ -451,7 +451,7 @@ C 18050 69950 1 180 0 resistor-1.sym
 T 17750 69550 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 69750 5 10 1 1 180 0 1
-refdes=R15
+refdes=R25
 T 18050 69950 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -460,7 +460,7 @@ C 19350 69750 1 0 1 led-2.sym
 T 19250 70350 5 10 0 0 0 6 1
 device=LED
 T 19250 69950 5 10 1 1 0 6 1
-refdes=D15
+refdes=D25
 T 19350 69750 5 10 0 0 0 0 1
 footprint=led-0402
 }
@@ -470,7 +470,7 @@ C 18050 70350 1 180 0 resistor-1.sym
 T 17750 69950 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 70150 5 10 1 1 180 0 1
-refdes=R16
+refdes=R24
 T 18050 70350 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -479,7 +479,7 @@ C 19350 70150 1 0 1 led-2.sym
 T 19250 70750 5 10 0 0 0 6 1
 device=LED
 T 19250 70350 5 10 1 1 0 6 1
-refdes=D16
+refdes=D24
 T 19350 70150 5 10 0 0 0 0 1
 footprint=led-0402
 }
@@ -489,7 +489,7 @@ C 18050 70750 1 180 0 resistor-1.sym
 T 17750 70350 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 70550 5 10 1 1 180 0 1
-refdes=R17
+refdes=R23
 T 18050 70750 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -498,7 +498,7 @@ C 19350 70550 1 0 1 led-2.sym
 T 19250 71150 5 10 0 0 0 6 1
 device=LED
 T 19250 70750 5 10 1 1 0 6 1
-refdes=D17
+refdes=D23
 T 19350 70550 5 10 0 0 0 0 1
 footprint=led-0402
 }
@@ -508,7 +508,7 @@ C 18050 71150 1 180 0 resistor-1.sym
 T 17750 70750 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 70950 5 10 1 1 180 0 1
-refdes=R18
+refdes=R22
 T 18050 71150 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -517,7 +517,7 @@ C 19350 70950 1 0 1 led-2.sym
 T 19250 71550 5 10 0 0 0 6 1
 device=LED
 T 19250 71150 5 10 1 1 0 6 1
-refdes=D18
+refdes=D22
 T 19350 70950 5 10 0 0 0 0 1
 footprint=led-0402
 }
@@ -527,7 +527,7 @@ C 18050 71550 1 180 0 resistor-1.sym
 T 17750 71150 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 71350 5 10 1 1 180 0 1
-refdes=R19
+refdes=R21
 T 18050 71550 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -536,7 +536,7 @@ C 19350 71350 1 0 1 led-2.sym
 T 19250 71950 5 10 0 0 0 6 1
 device=LED
 T 19250 71550 5 10 1 1 0 6 1
-refdes=D19
+refdes=D21
 T 19350 71350 5 10 0 0 0 0 1
 footprint=led-0402
 }
@@ -565,7 +565,7 @@ C 18050 72350 1 180 0 resistor-1.sym
 T 17750 71950 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 72150 5 10 1 1 180 0 1
-refdes=R21
+refdes=R19
 T 18050 72350 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -574,7 +574,7 @@ C 19350 72150 1 0 1 led-2.sym
 T 19250 72750 5 10 0 0 0 6 1
 device=LED
 T 19250 72350 5 10 1 1 0 6 1
-refdes=D21
+refdes=D19
 T 19350 72150 5 10 0 0 0 0 1
 footprint=led-0402
 }
@@ -584,7 +584,7 @@ C 18050 72750 1 180 0 resistor-1.sym
 T 17750 72350 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 72550 5 10 1 1 180 0 1
-refdes=R22
+refdes=R18
 T 18050 72750 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -593,7 +593,7 @@ C 19350 72550 1 0 1 led-2.sym
 T 19250 73150 5 10 0 0 0 6 1
 device=LED
 T 19250 72750 5 10 1 1 0 6 1
-refdes=D22
+refdes=D18
 T 19350 72550 5 10 0 0 0 0 1
 footprint=led-0402
 }
@@ -603,7 +603,7 @@ C 18050 73150 1 180 0 resistor-1.sym
 T 17750 72750 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 72950 5 10 1 1 180 0 1
-refdes=R23
+refdes=R17
 T 18050 73150 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -612,7 +612,7 @@ C 19350 72950 1 0 1 led-2.sym
 T 19250 73550 5 10 0 0 0 6 1
 device=LED
 T 19250 73150 5 10 1 1 0 6 1
-refdes=D23
+refdes=D17
 T 19350 72950 5 10 0 0 0 0 1
 footprint=led-0402
 }
@@ -622,7 +622,7 @@ C 18050 73550 1 180 0 resistor-1.sym
 T 17750 73150 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 73350 5 10 1 1 180 0 1
-refdes=R24
+refdes=R16
 T 18050 73550 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -631,7 +631,7 @@ C 19350 73350 1 0 1 led-2.sym
 T 19250 73950 5 10 0 0 0 6 1
 device=LED
 T 19250 73550 5 10 1 1 0 6 1
-refdes=D24
+refdes=D16
 T 19350 73350 5 10 0 0 0 0 1
 footprint=led-0402
 }
@@ -641,7 +641,7 @@ C 18050 73950 1 180 0 resistor-1.sym
 T 17750 73550 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 73750 5 10 1 1 180 0 1
-refdes=R25
+refdes=R15
 T 18050 73950 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -650,7 +650,7 @@ C 19350 73750 1 0 1 led-2.sym
 T 19250 74350 5 10 0 0 0 6 1
 device=LED
 T 19250 73950 5 10 1 1 0 6 1
-refdes=D25
+refdes=D15
 T 19350 73750 5 10 0 0 0 0 1
 footprint=led-0402
 }
@@ -660,7 +660,7 @@ C 18050 74350 1 180 0 resistor-1.sym
 T 17750 73950 5 10 0 0 180 0 1
 device=RESISTOR
 T 18150 74150 5 10 1 1 180 0 1
-refdes=R26
+refdes=R14
 T 18050 74350 5 10 0 0 0 0 1
 footprint=0402
 }
@@ -669,7 +669,7 @@ C 19350 74150 1 0 1 led-2.sym
 T 19250 74750 5 10 0 0 0 6 1
 device=LED
 T 19250 74350 5 10 1 1 0 6 1
-refdes=D26
+refdes=D14
 T 19350 74150 5 10 0 0 0 0 1
 footprint=led-0402
 }
