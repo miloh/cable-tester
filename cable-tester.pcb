@@ -2035,25 +2035,129 @@ Element["" "arduino-mega2560-rev3-pinsonly" "A1" "unknown" 385.00mil 2295.00mil 
 	Pin[1640.00mil -2000.00mil 60.00mil 30.00mil 66.00mil 38.00mil "17/PH5/OC4C" "8" "edge2"]
 
 	)
+Rat[1345.00mil 655.00mil 5 22.2930mm 21.5296mm 0  ""]
+Rat[22.2930mm 21.5296mm 0 970.00mil 1010.00mil 0  ""]
+Rat[22.2930mm 21.5296mm 0 22.2930mm 11.6998mm 0  ""]
+Rat[970.00mil 1010.00mil 0 13.6822mm 35.5766mm 0  ""]
+Rat[4185.00mil 295.00mil 5 4085.00mil 295.00mil 5  ""]
+Rat[4085.00mil 295.00mil 5 1885.00mil 2195.00mil 5  ""]
+Rat[1885.00mil 2195.00mil 5 24.6652mm 32.5496mm 0  ""]
+Rat[2885.00mil 295.00mil 5 26.8142mm 11.6998mm 0  ""]
+Rat[26.8142mm 11.6998mm 0 26.8142mm 21.5296mm 0  ""]
+Rat[2685.00mil 2195.00mil 5 2390.00mil 1830.00mil 0  ""]
+Rat[2785.00mil 2195.00mil 5 2490.00mil 1830.00mil 0  ""]
+Rat[2885.00mil 2195.00mil 5 2590.00mil 1830.00mil 0  ""]
+Rat[2985.00mil 2195.00mil 5 2690.00mil 1830.00mil 0  ""]
+Rat[3085.00mil 2195.00mil 5 2790.00mil 1830.00mil 0  ""]
+Rat[3285.00mil 2195.00mil 5 78.3862mm 46.4632mm 0  ""]
+Rat[3385.00mil 2195.00mil 5 80.9262mm 46.4632mm 0  ""]
+Rat[3485.00mil 2195.00mil 5 83.4962mm 46.4585mm 0  ""]
+Rat[3585.00mil 2195.00mil 5 86.0062mm 46.4632mm 0  ""]
+Rat[3685.00mil 2195.00mil 5 88.5762mm 46.4397mm 0  ""]
+Rat[3785.00mil 2195.00mil 5 90.9892mm 46.4585mm 0  ""]
+Rat[3885.00mil 2195.00mil 5 93.6262mm 46.4632mm 0  ""]
+Rat[3985.00mil 2195.00mil 5 96.1662mm 46.4632mm 0  ""]
+Rat[3085.00mil 295.00mil 5 1890.00mil 1715.00mil 5  ""]
+Rat[3185.00mil 295.00mil 5 1990.00mil 1715.00mil 5  ""]
+Rat[3285.00mil 295.00mil 5 2090.00mil 1715.00mil 5  ""]
+Rat[3385.00mil 295.00mil 5 2190.00mil 1715.00mil 5  ""]
+Rat[3485.00mil 295.00mil 5 2290.00mil 1715.00mil 5  ""]
+Rat[2185.00mil 295.00mil 5 1290.00mil 1715.00mil 5  ""]
+Rat[2285.00mil 295.00mil 5 1390.00mil 1715.00mil 5  ""]
+Rat[2385.00mil 295.00mil 5 1490.00mil 1715.00mil 5  ""]
+Rat[2485.00mil 295.00mil 5 1590.00mil 1715.00mil 5  ""]
+Rat[2585.00mil 295.00mil 5 1690.00mil 1715.00mil 5  ""]
+Rat[2685.00mil 295.00mil 5 1790.00mil 1715.00mil 5  ""]
+Rat[1525.00mil 295.00mil 5 998.52mil 36.3492mm 0  ""]
+Rat[1925.00mil 295.00mil 5 1090.00mil 1715.00mil 5  ""]
+Rat[2025.00mil 295.00mil 5 1190.00mil 1715.00mil 5  ""]
+Rat[4085.00mil 395.00mil 5 1345.00mil 955.00mil 5  ""]
+Rat[4085.00mil 495.00mil 5 3255.00mil 555.00mil 5  ""]
+Rat[4085.00mil 595.00mil 5 3205.00mil 555.00mil 5  ""]
+Rat[4085.00mil 695.00mil 5 3155.00mil 555.00mil 5  ""]
+Rat[4085.00mil 795.00mil 5 3105.00mil 555.00mil 5  ""]
+Rat[4085.00mil 895.00mil 5 3055.00mil 555.00mil 5  ""]
+Rat[4085.00mil 995.00mil 5 3005.00mil 555.00mil 5  ""]
+Rat[4085.00mil 1095.00mil 5 2955.00mil 555.00mil 5  ""]
+Rat[4085.00mil 1195.00mil 5 2905.00mil 555.00mil 5  ""]
+Rat[4085.00mil 1295.00mil 5 2855.00mil 555.00mil 5  ""]
+Rat[4085.00mil 1395.00mil 5 2805.00mil 555.00mil 5  ""]
+Rat[4085.00mil 1495.00mil 5 2755.00mil 555.00mil 5  ""]
+Rat[4085.00mil 1595.00mil 5 2705.00mil 555.00mil 5  ""]
+Rat[4085.00mil 1695.00mil 5 2655.00mil 555.00mil 5  ""]
+Rat[4085.00mil 1895.00mil 5 1345.00mil 1155.00mil 5  ""]
+Rat[4185.00mil 1795.00mil 5 1345.00mil 1255.00mil 5  ""]
+Rat[4185.00mil 1695.00mil 5 2655.00mil 605.00mil 5  ""]
+Rat[4185.00mil 1595.00mil 5 2705.00mil 605.00mil 5  ""]
+Rat[4185.00mil 1495.00mil 5 2755.00mil 605.00mil 5  ""]
+Rat[4185.00mil 1395.00mil 5 2805.00mil 605.00mil 5  ""]
+Rat[4185.00mil 1295.00mil 5 2855.00mil 605.00mil 5  ""]
+Rat[4185.00mil 1195.00mil 5 2905.00mil 605.00mil 5  ""]
+Rat[4185.00mil 1095.00mil 5 2955.00mil 605.00mil 5  ""]
+Rat[4185.00mil 995.00mil 5 3005.00mil 605.00mil 5  ""]
+Rat[4185.00mil 895.00mil 5 3055.00mil 605.00mil 5  ""]
+Rat[4185.00mil 795.00mil 5 3105.00mil 605.00mil 5  ""]
+Rat[4185.00mil 695.00mil 5 3155.00mil 605.00mil 5  ""]
+Rat[4185.00mil 595.00mil 5 3205.00mil 605.00mil 5  ""]
+Rat[4185.00mil 495.00mil 5 3255.00mil 605.00mil 5  ""]
+Rat[3255.00mil 605.00mil 5 1345.00mil 1055.00mil 5  ""]
+Rat[58.0935mm 48.6236mm 0 58.0662mm 47.2628mm 0  ""]
+Rat[58.0935mm 1945.80mil 0 3255.00mil 1245.00mil 5  ""]
+Rat[55.5541mm 48.6222mm 0 55.5262mm 47.2628mm 0  ""]
+Rat[55.5541mm 49.4218mm 0 3205.00mil 1245.00mil 5  ""]
+Rat[53.0135mm 48.6236mm 0 52.9862mm 47.2628mm 0  ""]
+Rat[53.0135mm 1945.80mil 0 3155.00mil 1245.00mil 5  ""]
+Rat[50.4462mm 1915.00mil 0 50.4462mm 47.2628mm 0  ""]
+Rat[50.4462mm 49.4406mm 0 3105.00mil 1245.00mil 5  ""]
+Rat[47.9062mm 1915.00mil 0 47.9062mm 47.2778mm 0  ""]
+Rat[47.9062mm 49.4406mm 0 3055.00mil 1245.00mil 5  ""]
+Rat[45.3941mm 48.6222mm 0 45.3662mm 47.2628mm 0  ""]
+Rat[45.3941mm 49.4218mm 0 3005.00mil 1245.00mil 5  ""]
+Rat[42.8262mm 48.6034mm 0 42.8256mm 47.2454mm 0  ""]
+Rat[42.8262mm 1945.00mil 0 2955.00mil 1245.00mil 5  ""]
+Rat[40.3141mm 48.6222mm 0 40.2862mm 47.2628mm 0  ""]
+Rat[40.3141mm 49.4218mm 0 2905.00mil 1245.00mil 5  ""]
+Rat[37.7741mm 48.6222mm 0 37.7462mm 1860.70mil 0  ""]
+Rat[37.7741mm 49.4218mm 0 2855.00mil 1245.00mil 5  ""]
+Rat[35.2341mm 48.6222mm 0 35.2062mm 47.2628mm 0  ""]
+Rat[35.2341mm 49.4218mm 0 2805.00mil 1245.00mil 5  ""]
+Rat[32.6941mm 48.6222mm 0 32.6662mm 47.2628mm 0  ""]
+Rat[32.6941mm 49.4218mm 0 2755.00mil 1245.00mil 5  ""]
+Rat[30.1535mm 48.6236mm 0 30.1256mm 1860.80mil 0  ""]
+Rat[30.1535mm 1945.80mil 0 2705.00mil 1245.00mil 5  ""]
+Rat[27.6135mm 48.6236mm 0 27.5856mm 1860.80mil 0  ""]
+Rat[27.6135mm 1945.80mil 0 2655.00mil 1245.00mil 5  ""]
+Rat[60.6341mm 48.6222mm 0 60.6062mm 47.2628mm 0  ""]
+Rat[60.6341mm 49.4218mm 0 2655.00mil 1295.00mil 5  ""]
+Rat[63.1741mm 48.6222mm 0 63.1946mm 47.2600mm 0  ""]
+Rat[63.1741mm 49.4218mm 0 2705.00mil 1295.00mil 5  ""]
+Rat[65.7141mm 48.6222mm 0 65.6862mm 47.2628mm 0  ""]
+Rat[65.7141mm 49.4218mm 0 2755.00mil 1295.00mil 5  ""]
+Rat[68.2541mm 48.6222mm 0 68.2620mm 47.2648mm 0  ""]
+Rat[68.2541mm 49.4218mm 0 2805.00mil 1295.00mil 5  ""]
+Rat[70.7941mm 48.6222mm 0 70.7662mm 47.2628mm 0  ""]
+Rat[70.7941mm 49.4218mm 0 2855.00mil 1295.00mil 5  ""]
+Rat[78.4141mm 48.6222mm 0 78.3862mm 47.2628mm 0  ""]
+Rat[78.4141mm 49.4218mm 0 2905.00mil 1295.00mil 5  ""]
+Rat[80.9078mm 48.6391mm 0 80.9262mm 47.2628mm 0  ""]
+Rat[80.9078mm 49.4387mm 0 2955.00mil 1295.00mil 5  ""]
+Rat[83.4757mm 48.6203mm 0 83.4962mm 47.2581mm 0  ""]
+Rat[83.4757mm 49.4199mm 0 3005.00mil 1295.00mil 5  ""]
+Rat[86.0157mm 48.6203mm 0 86.0062mm 47.2628mm 0  ""]
+Rat[86.0157mm 49.4199mm 0 3055.00mil 1295.00mil 5  ""]
+Rat[88.5557mm 48.6203mm 0 88.5762mm 47.2393mm 0  ""]
+Rat[88.5557mm 49.4199mm 0 3105.00mil 1295.00mil 5  ""]
+Rat[91.0957mm 48.6203mm 0 90.9892mm 47.2581mm 0  ""]
+Rat[91.0957mm 49.4199mm 0 3155.00mil 1295.00mil 5  ""]
+Rat[93.6357mm 48.6203mm 0 93.6262mm 47.2628mm 0  ""]
+Rat[93.6357mm 49.4199mm 0 3205.00mil 1295.00mil 5  ""]
+Rat[96.1757mm 48.6203mm 0 96.1662mm 47.2628mm 0  ""]
+Rat[96.1757mm 49.4199mm 0 3255.00mil 1295.00mil 5  ""]
+Rat[970.00mil 1147.80mil 0 24.6652mm 1250.00mil 0  ""]
+Rat[22.3822mm 35.5766mm 0 967.04mil 36.3492mm 0  ""]
 Layer(1 "top")
 (
-)
-Layer(2 "ground")
-(
-)
-Layer(3 "signal2")
-(
-)
-Layer(4 "signal3")
-(
-)
-Layer(5 "power")
-(
-)
-Layer(6 "bottom")
-(
 	Line[1090.00mil 1830.00mil 1090.00mil 1715.00mil 10.00mil 20.00mil "clearline"]
-	Line[1190.00mil 1830.00mil 1190.00mil 1715.00mil 10.00mil 20.00mil "clearline"]
 	Line[1290.00mil 1830.00mil 1290.00mil 1715.00mil 10.00mil 20.00mil "clearline"]
 	Line[1390.00mil 1830.00mil 1390.00mil 1715.00mil 10.00mil 20.00mil "clearline"]
 	Line[1490.00mil 1830.00mil 1490.00mil 1715.00mil 10.00mil 20.00mil "clearline"]
@@ -2070,6 +2174,22 @@ Layer(6 "bottom")
 	Line[2590.00mil 1830.00mil 2590.00mil 1715.00mil 10.00mil 20.00mil "clearline"]
 	Line[2690.00mil 1830.00mil 2690.00mil 1715.00mil 10.00mil 20.00mil "clearline"]
 	Line[2790.00mil 1830.00mil 2790.00mil 1715.00mil 10.00mil 20.00mil "clearline"]
+	Line[1190.00mil 1830.00mil 1190.00mil 1715.00mil 10.00mil 20.00mil "clearline"]
+)
+Layer(2 "ground")
+(
+)
+Layer(3 "signal2")
+(
+)
+Layer(4 "signal3")
+(
+)
+Layer(5 "power")
+(
+)
+Layer(6 "bottom")
+(
 )
 Layer(7 "outline")
 (
