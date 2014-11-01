@@ -9,7 +9,7 @@ Grid[500.000000 0.0000 0.0000 1]
 PolyArea[3100.006200]
 Thermal[0.500000]
 DRC[6.00mil 10.00mil 6.00mil 10.00mil 11.00mil 6.00mil]
-Flags("showdrc,nameonpcb,clearnew,snappin,thindraw")
+Flags("showdrc,nameonpcb,clearnew,snappin")
 Groups("1,c:2:3:4:5:6,s:7:8")
 Styles["Signal,10.00mil,36.00mil,20.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,40.00mil,60.00mil,35.00mil,10.00mil:Skinny,6.00mil,0.6101mm,0.3000mm,6.00mil"]
 
@@ -805,7 +805,7 @@ Via[3110.00mil 960.00mil 0.6101mm 12.00mil 0.0000 0.3000mm "" ""]
 Via[3110.00mil 905.00mil 0.6101mm 12.00mil 0.0000 0.3000mm "" ""]
 Via[3125.00mil 850.00mil 0.6101mm 12.00mil 0.0000 0.3000mm "" ""]
 
-Element["" "LED_1206" "D27" "unknown" 1593.90mil 1985.00mil 3.0000mm 3.0000mm 2 100 ""]
+Element["" "LED_1206" "D27" "unknown" 1593.90mil 1985.00mil -192.01mil 1.5751mm 1 100 ""]
 (
 	Attribute("gedasymbols::url" "http://www.gedasymbols.org/user/kai_martin_knaak/footprints/discretes/diodes/LED_1206.fp")
 	Attribute("device" "LED")
@@ -845,7 +845,7 @@ Element["" "0402" "R27" "unknown" 1805.00mil 50.4378mm 0.8337mm 1.2161mm 1 100 "
 
 	)
 
-Element["" "0402" "R28" "unknown" 26.3972mm 515.00mil -0.9413mm 28.50mil 0 100 ""]
+Element["" "0402" "R28" "unknown" 26.3972mm 515.00mil -2.8133mm 0.7061mm 1 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -857,7 +857,7 @@ Element["" "0402" "R28" "unknown" 26.3972mm 515.00mil -0.9413mm 28.50mil 0 100 "
 
 	)
 
-Element["" "TYCO-fsmjsma" "S1" "unknown" 28.6594mm 33.2963mm 50.00mil 220.00mil 2 100 ""]
+Element["" "TYCO-fsmjsma" "S1" "unknown" 28.6594mm 33.2963mm -1.5037mm 8.3171mm 1 100 ""]
 (
 	Attribute("author" "Alexander Kurz")
 	Attribute("copyright" "2008 Alexander Kurz")
@@ -888,7 +888,7 @@ Element["" "TYCO-fsmjsma" "S1" "unknown" 28.6594mm 33.2963mm 50.00mil 220.00mil 
 
 	)
 
-Element["" "PKMCS0909E4000-R1" "LS1" "unknown" 26.4666mm 19.9408mm -140.00mil 315.00mil 1 100 ""]
+Element["" "PKMCS0909E4000-R1" "LS1" "unknown" 26.7206mm 19.9408mm -140.00mil 315.00mil 1 100 ""]
 (
 	Attribute("device" "SPEAKER")
 	Attribute("manufacturer" "unknown")
@@ -903,31 +903,6 @@ Element["" "PKMCS0909E4000-R1" "LS1" "unknown" 26.4666mm 19.9408mm -140.00mil 31
 	ElementLine [3.5000mm 4.5000mm 4.5000mm 4.5000mm 8.00mil]
 	ElementLine [-4.5000mm -4.5000mm -3.5000mm -4.5000mm 8.00mil]
 	ElementLine [3.5000mm -4.5000mm 4.5000mm -4.5000mm 8.00mil]
-
-	)
-
-Element["lock" "" "" "" 385.00mil 2295.00mil 0.0000 0.0000 0 100 ""]
-(
-	ElementLine [0.0000 0.0000 0.0000 -125.00mil 10.00mil]
-	ElementLine [0.0000 -475.00mil 0.0000 -1275.00mil 10.00mil]
-	ElementLine [0.0000 -1725.00mil 0.0000 -2100.00mil 10.00mil]
-	ElementLine [0.0000 0.0000 3900.00mil 0.0000 10.00mil]
-	ElementLine [0.0000 -2100.00mil 3800.00mil -2100.00mil 10.00mil]
-	ElementLine [3800.00mil -2100.00mil 3900.00mil -2000.00mil 10.00mil]
-	ElementLine [3900.00mil -2000.00mil 3900.00mil -1600.00mil 10.00mil]
-	ElementLine [3900.00mil -1600.00mil 4000.00mil -1500.00mil 10.00mil]
-	ElementLine [4000.00mil -1500.00mil 4000.00mil -150.00mil 10.00mil]
-	ElementLine [4000.00mil -150.00mil 3900.00mil -50.00mil 10.00mil]
-	ElementLine [3900.00mil -50.00mil 3900.00mil 0.0000 10.00mil]
-	ElementLine [3900.00mil 0.0000 0.0000 0.0000 10.00mil]
-	ElementLine [-75.00mil -125.00mil 450.00mil -125.00mil 10.00mil]
-	ElementLine [-75.00mil -475.00mil 450.00mil -475.00mil 10.00mil]
-	ElementLine [-75.00mil -125.00mil -75.00mil -475.00mil 10.00mil]
-	ElementLine [450.00mil -125.00mil 450.00mil -475.00mil 10.00mil]
-	ElementLine [-250.00mil -1275.00mil 375.00mil -1275.00mil 10.00mil]
-	ElementLine [-250.00mil -1725.00mil 375.00mil -1725.00mil 10.00mil]
-	ElementLine [-250.00mil -1275.00mil -250.00mil -1725.00mil 10.00mil]
-	ElementLine [375.00mil -1275.00mil 375.00mil -1725.00mil 10.00mil]
 
 	)
 
@@ -2056,10 +2031,6 @@ Element["" "arduino-mega2560-rev3-pinsonly" "A1" "unknown" 385.00mil 2295.00mil 
 	Pin[1640.00mil -2000.00mil 60.00mil 30.00mil 66.00mil 38.00mil "17/PH5/OC4C" "8" "edge2"]
 
 	)
-Rat[4185.00mil 295.00mil 5 4085.00mil 295.00mil 5  ""]
-Rat[4085.00mil 295.00mil 5 1805.00mil 50.8376mm 0  ""]
-Rat[1125.00mil 295.00mil 0 3785.00mil 295.00mil 5  ""]
-Rat[1289.60mil 13.5963mm 0 3685.00mil 295.00mil 5  ""]
 Layer(1 "top")
 (
 	Line[96.6199mm 14.5175mm 96.6199mm 625.00mil 10.00mil 20.00mil "clearline,auto"]
