@@ -9,7 +9,7 @@ Grid[500.000000 0.0000 0.0000 1]
 PolyArea[3100.006200]
 Thermal[0.500000]
 DRC[6.00mil 10.00mil 6.00mil 10.00mil 11.00mil 6.00mil]
-Flags("showdrc,nameonpcb,alldirection,clearnew,snappin")
+Flags("showdrc,nameonpcb,clearnew,snappin,thindraw")
 Groups("1,c:2:3:4:5:6,s:7:8")
 Styles["Signal,10.00mil,36.00mil,20.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,40.00mil,60.00mil,35.00mil,10.00mil:Skinny,6.00mil,0.6101mm,0.3000mm,6.00mil"]
 
@@ -2618,6 +2618,14 @@ Layer(6 "bottom")
 )
 Layer(7 "outline")
 (
+	Line[840.00mil 2200.00mil 840.00mil 290.00mil 10.00mil 20.00mil "clearline"]
+	Line[935.00mil 195.00mil 4190.00mil 195.00mil 10.00mil 20.00mil "clearline"]
+	Line[4285.00mil 290.00mil 4285.00mil 2205.00mil 10.00mil 20.00mil "clearline"]
+	Line[4200.00mil 2295.00mil 935.00mil 2295.00mil 10.00mil 20.00mil "clearline"]
+	Arc[935.00mil 2200.00mil 95.00mil 95.00mil 10.00mil 20.00mil 90 -90 "clearline"]
+	Arc[4190.00mil 2200.00mil 95.00mil 95.00mil 10.00mil 20.00mil 180 -90 "clearline"]
+	Arc[935.00mil 290.00mil 95.00mil 95.00mil 10.00mil 20.00mil 0 -90 "clearline"]
+	Arc[4190.00mil 290.00mil 95.00mil 95.00mil 10.00mil 20.00mil 270 -90 "clearline"]
 )
 Layer(8 "spare")
 (
