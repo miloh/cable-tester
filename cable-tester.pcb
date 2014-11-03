@@ -1932,7 +1932,7 @@ Element["" "7PIN-OLED-SPI" "CONN1" "unknown" 1375.00mil 1050.00mil 70.00mil 90.0
 
 	)
 
-Element["" "arduino-mega2560-rev3-pinsonly" "A1" "unknown" 385.00mil 2295.00mil 0.0000 0.0000 0 100 ""]
+Element["" "arduino-mega2560-rev3-pinsonly" "ArduinoMegaShield" "unknown" 385.00mil 2295.00mil 680.00mil -55.00mil 1 100 ""]
 (
 	Attribute("device" "Arduino-Mega2560")
 	Attribute("manufacturer" "unknown")
@@ -2033,15 +2033,10 @@ Element["" "arduino-mega2560-rev3-pinsonly" "A1" "unknown" 385.00mil 2295.00mil 
 	)
 Layer(1 "top")
 (
-	Line[835.00mil 2200.00mil 835.00mil 290.00mil 0.1000mil 52.00mil "clearline"]
-	Line[935.00mil 190.00mil 4190.00mil 190.00mil 0.1000mil 52.00mil "clearline"]
-	Line[4290.00mil 290.00mil 4290.00mil 2200.00mil 0.1000mil 52.00mil "clearline"]
-	Line[4190.00mil 2300.00mil 935.00mil 2300.00mil 0.1000mil 52.00mil "clearline"]
-	Arc[935.00mil 2200.00mil 100.00mil 100.00mil 0.1000mil 52.00mil 0 90 "clearline"]
-	Arc[4190.00mil 2200.00mil 100.00mil 100.00mil 0.1000mil 52.00mil 90 90 "clearline"]
-	Arc[935.00mil 290.00mil 100.00mil 100.00mil 0.1000mil 52.00mil -90 90 "clearline"]
-	Arc[4190.00mil 290.00mil 100.00mil 100.00mil 0.100mil 52.00mil 180 90 "clearline"]
-
+	Line[835.00mil 2200.00mil 835.00mil 290.00mil 0.10mil 52.00mil "clearline"]
+	Line[935.00mil 190.00mil 4190.00mil 190.00mil 0.10mil 52.00mil "clearline"]
+	Line[4290.00mil 290.00mil 4290.00mil 2200.00mil 0.10mil 52.00mil "clearline"]
+	Line[4190.00mil 2300.00mil 935.00mil 2300.00mil 0.2025mm 52.00mil "clearline"]
 	Line[96.6199mm 14.5175mm 96.6199mm 625.00mil 10.00mil 20.00mil "clearline,auto"]
 	Line[94.0799mm 14.5175mm 94.0799mm 625.00mil 10.00mil 20.00mil "clearline,auto"]
 	Line[91.5398mm 571.37mil 91.5398mm 625.00mil 10.00mil 20.00mil "clearline,auto"]
@@ -2304,6 +2299,10 @@ Layer(1 "top")
 	Line[29.9455mm 27.9456mm 26.4666mm 24.2908mm 20.00mil 10.00mil "clearline,auto"]
 	Line[1375.00mil 1050.00mil 34.0062mm 27.0847mm 20.00mil 10.00mil "clearline,auto"]
 	Line[33.9831mm 27.0962mm 30.9200mm 28.7370mm 20.00mil 10.00mil "clearline,auto"]
+	Arc[935.00mil 2200.00mil 100.00mil 100.00mil 0.10mil 52.00mil 0 90 "clearline"]
+	Arc[4190.00mil 2200.00mil 100.00mil 100.00mil 0.10mil 52.00mil 90 90 "clearline"]
+	Arc[935.00mil 290.00mil 100.00mil 100.00mil 0.10mil 52.00mil -90 90 "clearline"]
+	Arc[4190.00mil 290.00mil 100.00mil 100.00mil 0.10mil 52.00mil 180 90 "clearline"]
 	Arc[71.2061mm 13.5950mm 0.3498mm 0.3498mm 10.00mil 10.00mil 308 52 "clearline,auto"]
 	Arc[3113.40mil 13.4680mm 0.3498mm 0.3498mm 10.00mil 10.00mil 309 51 "clearline,auto"]
 	Arc[76.2862mm 13.5950mm 0.3498mm 0.3498mm 10.00mil 10.00mil 308 52 "clearline,auto"]
@@ -2467,22 +2466,16 @@ Layer(5 "power")
 )
 Layer(6 "bottom")
 (
-
-	Line[835.00mil 2200.00mil 835.00mil 290.00mil 0.1000mil 52.00mil "clearline"]
-	Line[935.00mil 190.00mil 4190.00mil 190.00mil 0.1000mil 52.00mil "clearline"]
-	Line[4290.00mil 290.00mil 4290.00mil 2200.00mil 0.1000mil 52.00mil "clearline"]
-	Line[4190.00mil 2300.00mil 935.00mil 2300.00mil 0.1000mil 52.00mil "clearline"]
-	Arc[935.00mil 2200.00mil 100.00mil 100.00mil 0.1000mil 52.00mil 0 90 "clearline"]
-	Arc[4190.00mil 2200.00mil 100.00mil 100.00mil 0.1000mil 52.00mil 90 90 "clearline"]
-	Arc[935.00mil 290.00mil 100.00mil 100.00mil 0.1000mil 52.00mil -90 90 "clearline"]
-	Arc[4190.00mil 290.00mil 100.00mil 100.00mil 0.100mil 52.00mil 180 90 "clearline"]
-
+	Line[835.00mil 2200.00mil 835.00mil 290.00mil 0.10mil 52.00mil "clearline"]
+	Line[935.00mil 190.00mil 4190.00mil 190.00mil 0.10mil 52.00mil "clearline"]
+	Line[4290.00mil 290.00mil 4290.00mil 2200.00mil 0.10mil 52.00mil "clearline"]
+	Line[4190.00mil 2300.00mil 935.00mil 2300.00mil 0.10mil 52.00mil "clearline"]
 	Line[4185.00mil 1895.00mil 104.2733mm 47.1123mm 10.00mil 10.00mil "clearline,auto"]
 	Line[4185.00mil 1795.00mil 107.3197mm 47.6187mm 10.00mil 10.00mil "clearline,auto"]
 	Line[4050.00mil 2260.00mil 2385.00mil 2260.00mil 10.00mil 10.00mil "clearline,auto"]
-	Line[59.6709mm 57.1319mm 56.1277mm 54.7984mm 10.00mil 0.3556mm "clearline,auto"]
-	Line[4015.00mil 2240.00mil 2385.00mil 2240.00mil 10.00mil 0.3048mm "clearline,auto"]
-	Line[59.9504mm 56.7076mm 56.4070mm 54.3741mm 10.00mil 0.4572mm "clearline,auto"]
+	Line[59.6709mm 57.1319mm 56.1277mm 54.7984mm 10.00mil 14.00mil "clearline,auto"]
+	Line[4015.00mil 2240.00mil 2385.00mil 2240.00mil 10.00mil 12.00mil "clearline,auto"]
+	Line[59.9504mm 56.7076mm 56.4070mm 54.3741mm 10.00mil 18.00mil "clearline,auto"]
 	Line[3280.00mil 1055.00mil 83.7144mm 28.1216mm 10.00mil 10.00mil "clearline,auto"]
 	Line[83.7174mm 28.5105mm 82.6715mm 32.1499mm 10.00mil 10.00mil "clearline,auto"]
 	Line[3177.20mil 33.0769mm 3135.20mil 32.6113mm 10.00mil 10.00mil "clearline,auto"]
@@ -2587,10 +2580,14 @@ Layer(6 "bottom")
 	Line[4020.00mil 2050.00mil 4015.00mil 2020.00mil 10.00mil 20.00mil "clearline"]
 	Line[4015.00mil 2000.00mil 102.0022mm 2025.00mil 10.00mil 20.00mil "clearline"]
 	Line[56.1277mm 54.7984mm 56.1204mm 54.7937mm 10.00mil 10.00mil "clearline,auto"]
-	Line[56.0927mm 54.7763mm 1375.00mil 1650.00mil 10.00mil 0.6604mm "clearline,auto"]
+	Line[56.0927mm 54.7763mm 1375.00mil 1650.00mil 10.00mil 26.00mil "clearline,auto"]
 	Line[3815.00mil 2010.00mil 81.6462mm 44.6005mm 10.00mil 10.00mil "clearline,auto"]
 	Line[81.5291mm 44.5598mm 1375.00mil 1250.00mil 10.00mil 10.00mil "clearline,auto"]
-	Line[56.4070mm 54.3741mm 1375.00mil 1550.00mil 10.00mil 0.5080mm "clearline,auto"]
+	Line[56.4070mm 54.3741mm 1375.00mil 1550.00mil 10.00mil 20.00mil "clearline,auto"]
+	Arc[935.00mil 2200.00mil 100.00mil 100.00mil 0.10mil 52.00mil 0 90 "clearline"]
+	Arc[4190.00mil 2200.00mil 100.00mil 100.00mil 0.10mil 52.00mil 90 90 "clearline"]
+	Arc[935.00mil 290.00mil 100.00mil 100.00mil 0.10mil 52.00mil -90 90 "clearline"]
+	Arc[4190.00mil 290.00mil 100.00mil 100.00mil 0.10mil 52.00mil 180 90 "clearline"]
 	Arc[4085.00mil 1895.00mil 45.00mil 45.00mil 10.00mil 10.00mil 243 17 "clearline,auto"]
 	Arc[2385.00mil 2195.00mil 65.00mil 65.00mil 10.00mil 10.00mil 57 33 "clearline,auto"]
 	Arc[2185.00mil 2195.00mil 45.00mil 45.00mil 10.00mil 10.00mil 237 13 "clearline,auto"]
@@ -2669,8 +2666,7 @@ Layer(9 "silk")
 )
 Layer(10 "silk")
 (
-	Line[385.00mil 2235.00mil 385.00mil 2360.00mil 10.00mil 20.00mil "clearline"]
-	Line[320.00mil 2295.00mil 445.00mil 2295.00mil 10.00mil 20.00mil "clearline"]
+	Text[1145.00mil 2235.00mil 1 118 "Ribbon cable testjig" "clearline"]
 )
 NetList()
 (
