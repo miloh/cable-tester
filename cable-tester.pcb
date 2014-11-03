@@ -1939,10 +1939,10 @@ Element["selected" "arduino-mega2560-rev3-pinsonly" "A1" "unknown" 385.00mil 229
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[600.00mil -2000.00mil 129.00mil 20.00mil 135.00mil 125.00mil "" "" "selected,edge2"]
-	Pin[3550.00mil -2000.00mil 129.00mil 20.00mil 135.00mil 125.00mil "" "" "selected,edge2"]
-	Pin[550.00mil -100.00mil 129.00mil 120.00mil 135.00mil 125.00mil "" "" "selected,edge2"]
-	Pin[3800.00mil -100.00mil 129.00mil 20.00mil 135.00mil 125.00mil "" "" "selected,edge2"]
+	Pin[600.00mil -2000.00mil 0.0mil 20.00mil 125.00mil 125.00mil "MNT" "" "selected,edge2"]
+	Pin[3550.00mil -2000.00mil 0.00mil 20.00mil 125.00mil 125.00mil "MNT" "" "selected,edge2"]
+	Pin[550.00mil -100.00mil 0.00mil 20.00mil 125.00mil 125.00mil "MNT" "" "selected,edge2"]
+	Pin[3800.00mil -100.00mil 0.00mil 20.00mil 125.00mil 125.00mil "MNT" "" "selected,edge2"]
 	Pin[1100.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "" "NC" "selected,edge2"]
 	Pin[1200.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "IOREF" "IOREF" "selected,edge2"]
 	Pin[1300.00mil -100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "" "RESET" "selected,edge2"]
