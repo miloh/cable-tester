@@ -1765,7 +1765,7 @@ Element["" "led-0402" "D17" "unknown" 73.3965mm 16.4037mm -15.00mil 140.00mil 1 
 
 	)
 
-Element["" "led-0402" "D18" "unknown" 75.9364mm 16.4037mm -25.00mil 140.00mil 1 72 ""]
+Element["found" "led-0402" "D18" "unknown" 75.9364mm 16.4037mm -25.00mil 140.00mil 1 72 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -2036,7 +2036,7 @@ Layer(1 "top")
 	Line[835.00mil 2200.00mil 835.00mil 290.00mil 0.10mil 52.00mil "clearline"]
 	Line[935.00mil 190.00mil 4190.00mil 190.00mil 0.10mil 52.00mil "clearline"]
 	Line[4290.00mil 290.00mil 4290.00mil 2200.00mil 0.10mil 52.00mil "clearline"]
-	Line[4190.00mil 2300.00mil 935.00mil 2300.00mil 0.2025mm 52.00mil "clearline"]
+	Line[4190.00mil 2300.00mil 935.00mil 2300.00mil 0.1000mm 52.00mil "clearline"]
 	Line[96.6199mm 14.5175mm 96.6199mm 625.00mil 10.00mil 20.00mil "clearline,auto"]
 	Line[94.0799mm 14.5175mm 94.0799mm 625.00mil 10.00mil 20.00mil "clearline,auto"]
 	Line[91.5398mm 571.37mil 91.5398mm 625.00mil 10.00mil 20.00mil "clearline,auto"]
