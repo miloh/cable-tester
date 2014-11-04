@@ -805,7 +805,7 @@ Via[3110.00mil 960.00mil 0.6101mm 12.00mil 0.0000 0.3000mm "" ""]
 Via[3110.00mil 905.00mil 0.6101mm 12.00mil 0.0000 0.3000mm "" ""]
 Via[3125.00mil 850.00mil 0.6101mm 12.00mil 0.0000 0.3000mm "" ""]
 
-Element["" "LED_1206" "D27" "unknown" 1593.90mil 1985.00mil -192.01mil 1.5751mm 1 100 ""]
+Element["" "LED_1206" "D27" "unknown" 1593.90mil 1985.00mil -192.01mil 1.5751mm 1 77 ""]
 (
 	Attribute("gedasymbols::url" "http://www.gedasymbols.org/user/kai_martin_knaak/footprints/discretes/diodes/LED_1206.fp")
 	Attribute("device" "LED")
@@ -906,7 +906,7 @@ Element["" "PKMCS0909E4000-R1" "LS1" "unknown" 26.7206mm 19.9408mm -140.00mil 31
 
 	)
 
-Element["" "EHF-113-01-XX-D" "J1" "unknown" 3200.00mil 1790.00mil 100.00mil 165.00mil 2 100 ""]
+Element["" "EHF-113-01-XX-D" "J1" "unknown" 3200.00mil 1790.00mil 340.00mil 65.00mil 1 100 ""]
 (
 	Attribute("device" "HEADER26")
 	Attribute("manufacturer" "unknown")
@@ -1847,7 +1847,7 @@ Element["" "0402" "R18" "unknown" 75.9364mm 14.2447mm -31.50mil -38.50mil 1 77 "
 
 	)
 
-Element["" "EHF-113-01-XX-D" "J2" "unknown" 3200.00mil 1200.00mil 100.00mil 165.00mil 2 100 ""]
+Element["" "EHF-113-01-XX-D" "J2" "unknown" 3200.00mil 1200.00mil 340.00mil 45.00mil 1 100 ""]
 (
 	Attribute("device" "HEADER26")
 	Attribute("manufacturer" "unknown")
@@ -2667,6 +2667,8 @@ Layer(9 "silk")
 Layer(10 "silk")
 (
 	Text[1145.00mil 2235.00mil 1 118 "Ribbon cable testjig" "clearline"]
+	Text[3610.00mil 1840.00mil 1 156 "Test Cable Ends" "clearline"]
+	Text[1490.00mil 1860.00mil 0 108 "Power" "clearline,selected"]
 )
 NetList()
 (
