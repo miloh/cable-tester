@@ -1,7 +1,7 @@
 #makefile for gaf-geda
 
 # Input DIR using this directory structure cleans things upS
-NAME= oohay
+NAME= cable-tester
 #
 SCH=sch
 PCB=pcb
