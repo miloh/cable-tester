@@ -2,7 +2,7 @@
 
 # Input DIR using this directory structure cleans things upS
 NAME= oohay
-
+#
 SCH=sch
 PCB=pcb
 SYM=gaf-symbols
@@ -16,7 +16,6 @@ AUTHOR = $(shell git config --global -l | grep user.name | cut -d "=" -f2)
 REV = $(shell git describe --tags --long)
 STATUS = $(shell git status -z -uno)
 CHECKINS = $(shell git status --porcelain *.pcb *.sch)
-
 
 pcb-files = $(wildcard *.pcb)
 schematic-files = $(wildcard *.sch)
