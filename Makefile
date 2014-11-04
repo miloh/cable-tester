@@ -27,13 +27,13 @@ list-gedafiles:
 	@$(foreach asset, $(schematic-files), echo $(asset);)
 
 .PHONY: all
-all: s
+all: 
 ifneq ($(FORCE),YES)
  ifneq ($(STATUS),)
  $(error error: bad working state -- clean working state and try again or use override)
  endif
  ifneq ($(CHECKINS),)
- $(error error: untracked schematic or pcb content, add content or use override)
+ $(error error: untracked schematic or pcb content, add content to repo, or use override)
  endif
  ifeq ($(REV),)
  $(error error: revision history has no tags to work with, add one and try again)
