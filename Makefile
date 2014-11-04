@@ -54,7 +54,7 @@ ps :
 # GERBERS (props to https://github.com/bgamari)
 #
 .PHONY: gerbers osh-park-gerbers
-gerbers: $(NAME).pcb $(NAME).bom
+gerbers: $(NAME).pcb 
 	rm -Rf gerbers
 	mkdir gerbers
 	pcb -x gerber --gerberfile gerbers/$(name) $<
