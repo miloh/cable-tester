@@ -20,10 +20,11 @@ the TO DO at the end of this document.
 
 TEST COMPONENTS
 ---------------
-6 way  24AWG power cables connected with molex 1x6 microfit connection to pcb
-20 way 30AWG 0.025" ribbon connected with 20-way EHF samtec connection to pcb
-26 way 30AWG 0.025" ribbon connected with 26-way EHF samtec connection to pcb
+* 20 way 30AWG 0.025" ribbon connected with 20-way EHF samtec connection to pcb
+* 26 way 30AWG 0.025" ribbon connected with 26-way EHF samtec connection to pcb
 
+(unimplemented)
+<block>6 way  24AWG power cables connected with molex 1x6 microfit connection to pcb
 just need a set of dongles for testing the connection back:
 
 VDC (1x2 micro fit 3.0mm)
@@ -39,7 +40,7 @@ Aux   (1x4 c-grid to 1x4 c-grid)
 
 dongle set for Y motor chassis connect
 dongle set for Z motor chassis connect
-
+</block>
 molex c-grid also is compatible  with molex sl
 
 backplane breakout (bpbo) pcb can be connected with KG 6-way and 26 way cable and ramps/rumba dongles
