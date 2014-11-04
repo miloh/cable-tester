@@ -41,9 +41,54 @@ ifneq ($(FORCE),YES)
 endif
 # $@  is the automatic variable for the prerequisite
 # $<  is the automatic variable for the target
+#
+# the following target exports postscript assets for the current commit using a
+# tag format, that's why we need tags
 ps : 
 	@$(foreach asset, $(pcb-files), pcb -x ps --psfile $(REV)-$(asset).$@ $(asset);) 
-
-# the following sed replacements work on variables found in CVS title blocks for gschem
+# format schematic files with info for the commit, date, author, all
+# assuming the CVS title block for gschem is included in the project and
+# provided with a title: the following sed replacements work on variables found in CVS title blocks for gschem
 	$(foreach asset, $(schematic-files), sed -i "s/\(date=\).*/\1$\$(DATE)/" $(asset);sed -i "s/\(auth=\).*/\1$\$(AUTHOR)/" $(asset); sed -i "s/\(fname=\).*/\1$@/" $(asset); sed -i "s/\(rev=\).*/\1$\$(REV) $\$(TAG)/" $(asset); gaf export -o $(REV)-$(asset).$@  -- $(asset); git checkout -- $(asset);)
 # danger, we will discard changes to the schematic file in the working directory now.  This assumes that the working dir was clean before make was called and should be rewritten as an atomic operation
+# GERBERS (props to https://github.com/bgamari)
+#
+.PHONY: gerbers osh-park-gerbers
+gerbers: $(NAME).pcb $(NAME).bom
+	rm -Rf gerbers
+	mkdir gerbers
+	pcb -x gerber --gerberfile gerbers/$(name) $<
+osh-park-gerbers: gerbers
+	rm -Rf $@
+	mkdir -p $@
+	cp gerbers/$(name).top.gbr "$@/Top Layer.ger"
+	cp gerbers/$(name).bottom.gbr "$@/Bottom Layer.ger"
+	cp gerbers/$(name).topmask.gbr "$@/Top Solder Mask.ger"
+	cp gerbers/$(name).bottommask.gbr "$@/Bottom Solder Mask.ger"
+	cp gerbers/$(name).topsilk.gbr "$@/Top Silk Screen.ger"
+	cp gerbers/$(name).bottomsilk.gbr "$@/Bottom Silk Screen.ger"
+	cp gerbers/$(name).outline.gbr "$@/Board Outline.ger"
+	cp gerbers/$(name).plated-drill.cnc "$@/Drills.xln"
+
+osh-park-gerbers.zip : osh-park-gerbers
+	rm -f $@
+	zip -j $@ osh-park-gerbers/*
+hackvana-gerbers : gerbers
+	rm -Rf $@
+	mkdir -p $@
+	cp gerbers/$(name).top.gbr $@/$(name).front.gtl
+	cp gerbers/$(name).bottom.gbr $@/$(name).back.gbl
+	cp gerbers/$(name).topmask.gbr $@/$(name).frontmask.gts
+	cp gerbers/$(name).bottommask.gbr $@/$(name).backmask.gbs
+	cp gerbers/$(name).topsilk.gbr $@/$(name).frontsilk.gto
+	cp gerbers/$(name).bottomsilk.gbr $@/$(name).backsilk.gbo
+	cp gerbers/$(name).outline.gbr $@/$(name).outline.gbr
+	cp gerbers/$(name).plated-drill.cnc $@/$(name).plated-drill.cnc
+hackvana-gerbers.zip : hackvana-gerbers
+	rm -f $@
+	zip -j $@ hackvana-gerbers/*
+	@echo "Be sure to add a version number to the zip file name"
+
+
+
+
