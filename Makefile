@@ -57,18 +57,18 @@ ps :
 gerbers: $(NAME).pcb 
 	rm -Rf gerbers
 	mkdir gerbers
-	pcb -x gerber --gerberfile gerbers/$(name) $<
+	pcb -x gerber --gerberfile gerbers/$(NAME) $<
 osh-park-gerbers: gerbers
 	rm -Rf $@
 	mkdir -p $@
-	cp gerbers/$(name).top.gbr "$@/Top Layer.ger"
-	cp gerbers/$(name).bottom.gbr "$@/Bottom Layer.ger"
-	cp gerbers/$(name).topmask.gbr "$@/Top Solder Mask.ger"
-	cp gerbers/$(name).bottommask.gbr "$@/Bottom Solder Mask.ger"
-	cp gerbers/$(name).topsilk.gbr "$@/Top Silk Screen.ger"
-	cp gerbers/$(name).bottomsilk.gbr "$@/Bottom Silk Screen.ger"
-	cp gerbers/$(name).outline.gbr "$@/Board Outline.ger"
-	cp gerbers/$(name).plated-drill.cnc "$@/Drills.xln"
+	cp gerbers/$(NAME).top.gbr "$@/Top Layer.ger"
+	cp gerbers/$(NAME).bottom.gbr "$@/Bottom Layer.ger"
+	cp gerbers/$(NAME).topmask.gbr "$@/Top Solder Mask.ger"
+	cp gerbers/$(NAME).bottommask.gbr "$@/Bottom Solder Mask.ger"
+	cp gerbers/$(NAME).topsilk.gbr "$@/Top Silk Screen.ger"
+	cp gerbers/$(NAME).bottomsilk.gbr "$@/Bottom Silk Screen.ger"
+	cp gerbers/$(NAME).outline.gbr "$@/Board Outline.ger"
+	cp gerbers/$(NAME).plated-drill.cnc "$@/Drills.xln"
 
 osh-park-gerbers.zip : osh-park-gerbers
 	rm -f $@
@@ -76,14 +76,14 @@ osh-park-gerbers.zip : osh-park-gerbers
 hackvana-gerbers : gerbers
 	rm -Rf $@
 	mkdir -p $@
-	cp gerbers/$(name).top.gbr $@/$(name).front.gtl
-	cp gerbers/$(name).bottom.gbr $@/$(name).back.gbl
-	cp gerbers/$(name).topmask.gbr $@/$(name).frontmask.gts
-	cp gerbers/$(name).bottommask.gbr $@/$(name).backmask.gbs
-	cp gerbers/$(name).topsilk.gbr $@/$(name).frontsilk.gto
-	cp gerbers/$(name).bottomsilk.gbr $@/$(name).backsilk.gbo
-	cp gerbers/$(name).outline.gbr $@/$(name).outline.gbr
-	cp gerbers/$(name).plated-drill.cnc $@/$(name).plated-drill.cnc
+	cp gerbers/$(NAME).top.gbr $@/$(NAME).front.gtl
+	cp gerbers/$(NAME).bottom.gbr $@/$(NAME).back.gbl
+	cp gerbers/$(NAME).topmask.gbr $@/$(NAME).frontmask.gts
+	cp gerbers/$(NAME).bottommask.gbr $@/$(NAME).backmask.gbs
+	cp gerbers/$(NAME).topsilk.gbr $@/$(NAME).frontsilk.gto
+	cp gerbers/$(NAME).bottomsilk.gbr $@/$(NAME).backsilk.gbo
+	cp gerbers/$(NAME).outline.gbr $@/$(NAME).outline.gbr
+	cp gerbers/$(NAME).plated-drill.cnc $@/$(NAME).plated-drill.cnc
 hackvana-gerbers.zip : hackvana-gerbers
 	rm -f $@
 	zip -j $@ hackvana-gerbers/*
