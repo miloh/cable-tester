@@ -47,6 +47,17 @@ backplane breakout (bpbo) pcb can be connected with KG 6-way and 26 way cable an
 gantry (gbo) pcb should be connected with KG 6-way and 26 way cable, dongle and 20-way cable
 carriage (cbo) pcb should be connected with KG 6-way and 20way cable, and motor/heat/fan/extruder dongles as required
 
+a few words about toolpath gen with pcb's gcode export
+------------------------------------------------------
+pcb has a gcode export that formats files with a #NUMBER meant to be
+replaced with a specific value
+
+use the following stanza in bash to see the commands: 
+egrep "#10.=" cable-tester-top.gcode
+
+use the following sed command to get rid of them
+sed -i s/Z\#100/Z'${VAR}'/g
+
 TO DO
 -----
 
