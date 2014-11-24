@@ -2,7 +2,7 @@
 
 # Input DIR using this directory structure cleans things upS
 NAME= cable-tester
-#
+
 SCH=sch
 PCB=pcb
 SYM=gaf-symbols
@@ -17,23 +17,21 @@ REV = $(shell git describe --tags --long)
 STATUS = $(shell git status -z -uno)
 CHECKINS = $(shell git status --porcelain *.pcb *.sch)
 
+
 pcb-files = $(wildcard *.pcb)
 schematic-files = $(wildcard *.sch)
-.PHONY: list-gedafiles clean
-clean:
-	rm -f *~ *- *.backup *.new.pcb *.png *.bak *.gbr *.cnc *.ps
+.PHONY: list-gedafiles 
 list-gedafiles:
 	@$(foreach asset, $(pcb-files), echo $(asset);)
 	@$(foreach asset, $(schematic-files), echo $(asset);)
-
-.PHONY: all
-all: 
+.PHONE: all clean
+all:
 ifneq ($(FORCE),YES)
  ifneq ($(STATUS),)
  $(error error: bad working state -- clean working state and try again or use override)
  endif
  ifneq ($(CHECKINS),)
- $(error error: untracked schematic or pcb content, add content to repo, or use override)
+ $(error error: untracked schematic or pcb content, add content or use override)
  endif
  ifeq ($(REV),)
  $(error error: revision history has no tags to work with, add one and try again)
@@ -41,54 +39,11 @@ ifneq ($(FORCE),YES)
 endif
 # $@  is the automatic variable for the prerequisite
 # $<  is the automatic variable for the target
-#
-# the following target exports postscript assets for the current commit using a
-# tag format, that's why we need tags
 ps : 
 	@$(foreach asset, $(pcb-files), pcb -x ps --psfile $(REV)-$(asset).$@ $(asset);) 
-# format schematic files with info for the commit, date, author, all
-# assuming the CVS title block for gschem is included in the project and
-# provided with a title: the following sed replacements work on variables found in CVS title blocks for gschem
+
+# the following sed replacements work on variables found in CVS title blocks for gschem
 	$(foreach asset, $(schematic-files), sed -i "s/\(date=\).*/\1$\$(DATE)/" $(asset);sed -i "s/\(auth=\).*/\1$\$(AUTHOR)/" $(asset); sed -i "s/\(fname=\).*/\1$@/" $(asset); sed -i "s/\(rev=\).*/\1$\$(REV) $\$(TAG)/" $(asset); gaf export -o $(REV)-$(asset).$@  -- $(asset); git checkout -- $(asset);)
 # danger, we will discard changes to the schematic file in the working directory now.  This assumes that the working dir was clean before make was called and should be rewritten as an atomic operation
-# GERBERS (props to https://github.com/bgamari)
-#
-.PHONY: gerbers osh-park-gerbers
-gerbers: $(NAME).pcb 
-	rm -Rf gerbers
-	mkdir gerbers
-	pcb -x gerber --gerberfile gerbers/$(NAME) $<
-osh-park-gerbers: gerbers
-	rm -Rf $@
-	mkdir -p $@
-	cp gerbers/$(NAME).top.gbr "$@/Top Layer.ger"
-	cp gerbers/$(NAME).bottom.gbr "$@/Bottom Layer.ger"
-	cp gerbers/$(NAME).topmask.gbr "$@/Top Solder Mask.ger"
-	cp gerbers/$(NAME).bottommask.gbr "$@/Bottom Solder Mask.ger"
-	cp gerbers/$(NAME).topsilk.gbr "$@/Top Silk Screen.ger"
-	cp gerbers/$(NAME).bottomsilk.gbr "$@/Bottom Silk Screen.ger"
-	cp gerbers/$(NAME).outline.gbr "$@/Board Outline.ger"
-	cp gerbers/$(NAME).plated-drill.cnc "$@/Drills.xln"
-
-osh-park-gerbers.zip : osh-park-gerbers
-	rm -f $@
-	zip -j $@ osh-park-gerbers/*
-hackvana-gerbers : gerbers
-	rm -Rf $@
-	mkdir -p $@
-	cp gerbers/$(NAME).top.gbr $@/$(NAME).front.gtl
-	cp gerbers/$(NAME).bottom.gbr $@/$(NAME).back.gbl
-	cp gerbers/$(NAME).topmask.gbr $@/$(NAME).frontmask.gts
-	cp gerbers/$(NAME).bottommask.gbr $@/$(NAME).backmask.gbs
-	cp gerbers/$(NAME).topsilk.gbr $@/$(NAME).frontsilk.gto
-	cp gerbers/$(NAME).bottomsilk.gbr $@/$(NAME).backsilk.gbo
-	cp gerbers/$(NAME).outline.gbr $@/$(NAME).outline.gbr
-	cp gerbers/$(NAME).plated-drill.cnc $@/$(NAME).plated-drill.cnc
-hackvana-gerbers.zip : hackvana-gerbers
-	rm -f $@
-	zip -j $@ hackvana-gerbers/*
-	@echo "Be sure to add a version number to the zip file name"
-
-
-
-
+clean:
+	rm -f *~ *- *.backup *.new.pcb *.png *.bak *.gbr *.cnc *.ps
